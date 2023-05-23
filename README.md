@@ -1,6 +1,7 @@
 # Summary
 
-... 1-2 sentences (see [release checklist](http://universaldependencies.org/release_checklist.html#the-readme-file) for README guidelines) ...
+An annotated UD treebank of Spanish-English code-switched dialogue. 
+(see [release checklist](http://universaldependencies.org/release_checklist.html#the-readme-file) for README guidelines) ...
 
 
 # Introduction
