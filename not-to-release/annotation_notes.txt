@@ -1,0 +1,21 @@
+- "you know" and "I mean" as rhetorical/discourse devices: I've been anntoating as `discourse`
+- "so"...when "in order that", annotating as `SCONJ`/`mark`, otherwise `ADV`/`advmod`
+- consistently annotating repetition in different languages as `reparandum` (e.g. "so she ella tenía"), but I think if they are sconj I'm not?? wtf
+- if an entire phrase is repeated, `reparandum` is just head->head, and the internal structure of the phrase is annotated, but if the head is not included in the first mention of the phrase, we have each individual word with a `reparandum` rel back to its first mention (see sastre12:468)
+- sastre12:482: need to think about compounds and MWEs. I'm annotating the internal structure of things whenever possible, but I'm aware that e.g. AnCora has a lot of MWE fixed/compound annotations.
+- "es que" constructions follow AnCora (es is AUX and root)
+- "o sea" how to analyze?
+- "lo que"
+- review any instances of `iobj` because the spanish ud guidelines say theere are no iobj, instead all recipient/beneficiaries should be marked with `obl:arg`
+- "ni + VERB"  is ni `CCONJ`?
+- gerund as NOUN or VERB e.g. "waiting" in "waiting room"
+- incongruent guidelins between english and spanish for possessive pronouns: in ancora, its DET/det, in EWT it is PRON/nmod
+- will need to review all sents that have a "xxx" in the original text....these were ignored for the annotated text, but maybe we want to put them back?
+- "too ADJ to VERB" and "demasiado ADJ para VERB" are inconsistent across languages (VERB -acl-> ADJ in spanish and VERB -acl-> ADJ in english I think)
+- false starts.... e.g. maria40:514
+- how to annotate people making sound effects? e.g. "&=imit:game_sound"
+- parataxis vs reparandum....is it parataxis so long as there is a complete phrase (not a fragment) ? or if roughly the same thing is said twice, do we say that's reparandum?? need to go back and check all parataxis and all reparandum cases once we establish some criteria.
+- "like" as a `verb` of reported speech, e.g. "he is like don't say anything" (similar to "he is all")
+	- apparently (found e.g. in EWT), "be like X" is a compound verb and X is ccomp
+- what about when an adj is doubled for emphasis (see "ese documental estaba duro duro")
+- finish through sastre10 for "first pass" (approx 1100 sentences)
