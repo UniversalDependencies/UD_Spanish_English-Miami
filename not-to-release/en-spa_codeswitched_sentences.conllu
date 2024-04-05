@@ -10554,189 +10554,210 @@
 # text[orig] = mira@s:spa los@s:spa photometrics con@s:spa el@s:spa light shield esa@s:spa luz@s:spa no@s:spa tiene@s:spa whatever . 146932_150837
 # gloss[orig] = look.V.2S.IMPER the.DET.DEF.M.PL photometric.ADJ+PV with.PREP the.DET.DEF.M.SG light.N.SG shield.N.SG that.ADJ.DEM.F.SG light.N.F.SG not.ADV have.V.3S.PRES whatever.REL
 # speaker = MAR
+# labels = checked
 1	mira	mirar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Lang=spa
 2	los	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	Lang=spa
-3	photometrics	photometrics	PROPN	_	_	1	obj	_	Lang=eng
+3	photometrics	photometrics	NOUN	_	_	1	obj	_	Lang=eng
 4	con	con	ADP	_	_	6	case	_	Lang=spa
 5	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	Lang=spa
-6	light	light	X	_	Gender=Masc|Number=Sing	1	obl	_	Lang=eng
-7	shield	shield	X	_	_	6	flat	_	Lang=eng
+6	light	light	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	Lang=eng
+7	shield	shield	NOUN	_	_	1	obl	_	Lang=eng
 8	esa	ese	DET	_	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	Lang=spa
 9	luz	luz	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	Lang=spa
 10	no	no	ADV	_	Polarity=Neg	11	advmod	_	Lang=spa
 11	tiene	tener	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	Lang=spa
-12	whatever	whatever	X	_	_	11	obj	_	Lang=eng
+12	whatever	whatever	PRON	_	_	11	obj	_	Lang=eng
 13	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = maria7:49
-# text = well that's why I've been calling to Pedro pa(ra) que me diga cuál es so that you know which is the pole that we put it on cause I don't know which one it is .
+# text = well that's why I've been calling to Pedro para que me diga cuál es so that you know which is the pole that we put it on cause I don't know which one it is .
 # text[orig] = well that's why I've been calling to Pedro@s:eng&spa pa(ra)@s:spa que@s:spa me@s:spa diga@s:spa cuál@s:spa es@s:spa so that you know which is the pole (.) that we put it on cause I don't know which one it is . 154320_161539
 # gloss[orig] = well.ADV that.DEM.FAR+BE.V.3S.PRES why.REL I.PRON.SUB.1S+HAVE.V.PRES been.V.PASTPART call.V.PRESPART to.PREP name for.PREP that.CONJ me.PRON.OBL.MF.1S tell.V.13S.SUBJ.PRES which.PRON.INT.MF.SG be.V.3S.PRES so.ADV that.CONJ you.PRON.SUB.2SP know.V.2SP.PRES which.REL is.V.3S.PRES the.DET.DEF pole.N.SG that.CONJ we.PRON.SUB.1P put.V.1P.PRES it.PRON.OBJ.3S on.PREP cause.N.SG I.PRON.SUB.1S do.V.1S.PRES+NEG know.V.INFIN which.REL one.PRON.SG it.PRON.SUB.3S is.V.3S.PRES
 # speaker = MAR
-1	well	well	INTJ	_	_	3	discourse	_	Lang=eng
-2	that's	that's	PRON	_	Number=Sing|PronType=Dem	6	nsubj	_	Lang=eng
-3	why	why	ADV	_	PronType=Int	6	advmod	_	Lang=eng
-4	I've	I'VE	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	Lang=eng
-5	been	be	AUX	_	Tense=Past|VerbForm=Part	6	aux	_	Lang=eng
-6	calling	call	VERB	_	Tense=Pres|VerbForm=Part	0	root	_	Lang=eng
-7	to	to	ADP	_	_	8	case	_	Lang=eng
-8	Pedro	Pedro	PROPN	_	Number=Sing	6	obl	_	Lang=eng&spa
-9	pa(ra)	pa(ra)	X	_	_	12	mark	_	Lang=spa
-10	que	que	SCONJ	_	_	12	mark	_	Lang=spa
-11	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	Lang=spa
-12	diga	diga	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	advcl	_	Lang=spa
-13	cuál	cuál	PRON	_	PronType=Int	12	ccomp	_	Lang=spa
-14	es	be	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	_	Lang=spa
-15	so	so	SCONJ	_	_	18	mark	_	Lang=eng
-16	that	that	SCONJ	_	_	18	mark	_	Lang=eng
-17	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	18	nsubj	_	Lang=eng
-18	know	know	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	advcl	_	Lang=eng
-19	which	which	PRON	_	PronType=Int	22	nsubj	_	Lang=eng
-20	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	Lang=eng
-21	the	the	DET	_	Definite=Def|PronType=Art	22	det	_	Lang=eng
-22	pole	pole	NOUN	_	Number=Sing	18	ccomp	_	Lang=eng
-23	that	that	PRON	_	PronType=Rel	25	obl	_	Lang=eng
-24	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	25	nsubj	_	Lang=eng
-25	put	put	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	Lang=eng
-26	it	it	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	obj	_	Lang=eng
-27	on	on	ADP	_	_	25	compound:prt	_	Lang=eng
-28	cause	cause	SCONJ	_	_	31	mark	_	Lang=eng
-29	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	31	nsubj	_	Lang=eng
-30	don't	don't	PART	_	_	31	advmod	_	Lang=eng
-31	know	know	VERB	_	VerbForm=Inf	25	advcl	_	Lang=eng
-32	which	which	DET	_	PronType=Int	33	det	_	Lang=eng
-33	one	one	NOUN	_	Number=Sing	31	ccomp	_	Lang=eng
-34	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	Lang=eng
-35	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	cop	_	Lang=eng
-36	.	.	PUNCT	_	_	3	punct	_	_
+# labels = checked
+1	well	well	INTJ	_	_	4	discourse	_	Lang=eng
+2-3	that's	_	_	_	_	_	_	_	_
+2	that	that's	PRON	_	Number=Sing|PronType=Dem	4	nsubj	_	Lang=eng
+3	's	_	AUX	_	_	4	cop	_	_
+4	why	why	ADV	_	PronType=Int	0	root	_	Lang=eng
+5-6	I've	_	_	_	_	_	_	_	_
+5	I	I'VE	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	Lang=eng
+6	've	_	AUX	_	_	8	aux	_	_
+7	been	be	AUX	_	Tense=Past|VerbForm=Part	8	aux	_	Lang=eng
+8	calling	call	VERB	_	Tense=Pres|VerbForm=Part	4	advcl	_	Lang=eng
+9	to	to	ADP	_	_	10	case	_	Lang=eng
+10	Pedro	Pedro	PROPN	_	Number=Sing	8	obl	_	Lang=eng&spa
+11	para	para	SCONJ	_	_	14	mark	_	Lang=spa
+12	que	que	SCONJ	_	_	14	mark	_	Lang=spa
+13	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	Lang=spa
+14	diga	diga	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	advcl	_	Lang=spa
+15	cuál	cuál	PRON	_	PronType=Int	14	ccomp	_	Lang=spa
+16	es	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	Lang=spa
+17	so	so	SCONJ	_	_	20	mark	_	Lang=eng
+18	that	that	SCONJ	_	_	20	mark	_	Lang=eng
+19	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	20	nsubj	_	Lang=eng
+20	know	know	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	advcl	_	Lang=eng
+21	which	which	PRON	_	PronType=Int	24	nsubj	_	Lang=eng
+22	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	Lang=eng
+23	the	the	DET	_	Definite=Def|PronType=Art	24	det	_	Lang=eng
+24	pole	pole	NOUN	_	Number=Sing	20	ccomp	_	Lang=eng
+25	that	that	PRON	_	PronType=Rel	27	obl	_	Lang=eng
+26	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	27	nsubj	_	Lang=eng
+27	put	put	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	Lang=eng
+28	it	it	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	27	obj	_	Lang=eng
+29	on	on	ADP	_	_	25	case	_	Lang=eng
+30	cause	cause	SCONJ	_	_	34	mark	_	Lang=eng
+31	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	34	nsubj	_	Lang=eng
+32	do	don't	AUX	_	_	34	aux	_	Lang=eng
+33	n't	_	ADV	_	_	34	advmod	_	_
+34	know	know	VERB	_	VerbForm=Inf	20	advcl	_	Lang=eng
+35	which	which	DET	_	PronType=Int	36	det	_	Lang=eng
+36	one	one	NOUN	_	Number=Sing	34	ccomp	_	Lang=eng
+37	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	36	nsubj	_	Lang=eng
+38	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	cop	_	Lang=eng
+39	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = maria7:53
 # text = and then his other thing he noted when he was at the U-One siding and connector road que pusimos luces .
 # text[orig] = and then his other thing he noted when he was at the U_One@s:eng siding and connector road (.) que@s:spa pusimos@s:spa luces@s:spa . 166943_173321
 # gloss[orig] = and.CONJ then.ADV his.ADJ.POSS.M.3S other.ADJ thing.N.SG he.PRON.SUB.M.3S note.N.SG+AV when.CONJ he.PRON.SUB.M.3S was.V.3S.PAST at.PREP the.DET.DEF name unk and.CONJ connector.N.SG road.N.SG that.PRON.REL put.V.1P.PAST light.N.F.PL
 # speaker = MAR
-1	and	and	CCONJ	_	_	7	cc	_	Lang=eng
-2	then	then	ADV	_	PronType=Dem	7	advmod	_	Lang=eng
-3	his	he	PRON	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	Lang=eng
+# labels = checked
+1	and	and	CCONJ	_	_	19	cc	_	Lang=eng
+2	then	then	ADV	_	PronType=Dem	19	advmod	_	Lang=eng
+3	his	he	PRON	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:pos	_	Lang=eng
 4	other	other	ADJ	_	Degree=Pos	5	amod	_	Lang=eng
-5	thing	thing	NOUN	_	Number=Sing	7	obj	_	Lang=eng
+5	thing	thing	NOUN	_	Number=Sing	19	nsubj	_	Lang=eng
 6	he	he	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	Lang=eng
-7	noted	note	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	Lang=eng
+7	noted	note	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl:relcl	_	Lang=eng
 8	when	when	ADV	_	PronType=Int	10	mark	_	Lang=eng
 9	he	he	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	Lang=eng
 10	was	be	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	advcl	_	Lang=eng
-11	at	at	ADP	_	_	14	case	_	Lang=eng
-12	the	the	DET	_	Definite=Def|PronType=Art	14	det	_	Lang=eng
-13	U-One	U-ONe	PROPN	_	Number=Sing	14	compound	_	Lang=eng
-14	siding	siding	NOUN	_	Number=Sing	10	obl	_	Lang=eng
-15	and	and	CCONJ	_	_	17	cc	_	Lang=eng
-16	connector	connector	NOUN	_	Number=Sing	17	compound	_	Lang=eng
-17	road	road	NOUN	_	Number=Sing	14	conj	_	Lang=eng
-18	que	que	CCONJ	_	_	20	cc	_	Lang=spa
-19	pusimos	pusimos	VERB	_	Number=Plur	20	amod	_	Lang=spa
-20	luces	luce	NOUN	_	Number=Plur	14	conj	_	Lang=spa
-21	.	.	PUNCT	_	_	7	punct	_	_
+11	at	at	ADP	_	_	17	case	_	Lang=eng
+12	the	the	DET	_	Definite=Def|PronType=Art	17	det	_	Lang=eng
+13	U-One	U-ONe	PROPN	_	Number=Sing	17	nmod	_	Lang=eng
+14	siding	siding	NOUN	_	Number=Sing	17	nmod	_	Lang=eng
+15	and	and	CCONJ	_	_	16	cc	_	Lang=eng
+16	connector	connector	NOUN	_	Number=Sing	14	conj	_	Lang=eng
+17	road	road	NOUN	_	Number=Sing	7	advcl	_	Lang=eng
+18	que	que	SCONJ	_	_	19	mark	_	Lang=spa
+19	pusimos	pusimos	VERB	_	Number=Plur	0	root	_	Lang=spa
+20	luces	luce	NOUN	_	Number=Plur	19	obj	_	Lang=spa
+21	.	.	PUNCT	_	_	19	punct	_	_
 
 # sent_id = maria7:58
 # text = I don't know how you wanna coach it you know they want they are not going to remove it but they wanna be able to say bueno you know it's no different than whatever your house your street light or something so
 # text[orig] = I don't know how you wanna coach [?] it you know <they want> [//] they are not going to remove it but they wanna be able to say bueno@s:spa you know it's no different than (.) whatever your house your street light or something so +... 190822_200418
 # gloss[orig] = I.PRON.SUB.1S do.V.1S.PRES+NEG know.V.INFIN how.ADV you.PRON.SUB.2SP want.V.2SP.PRES+TO.PREP coach.N.SG it.PRON.SUB.3S you.PRON.SUB.2SP know.V.2SP.PRES they.PRON.SUB.3P want.V.3P.PRES they.PRON.SUB.3P are.V.3P.PRES not.ADV go.V.PRESPART to.PREP remove.V.INFIN it.PRON.OBJ.3S but.CONJ they.PRON.SUB.3P want.V.3P.PRES+TO.PREP be.V.INFIN able.ADJ to.PREP say.V.INFIN well.E you.PRON.SUB.2SP know.V.2SP.PRES it.PRON.SUB.3S+BE.V.3S.PRES no.ADV different.ADJ than.CONJ whatever.REL your.ADJ.POSS.2SP house.N.SG your.ADJ.POSS.2SP street.N.SG light.N.SG or.CONJ something.PRON so.ADV
 # speaker = MAR
-1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Lang=eng
-2	don't	don't	AUX	_	_	3	aux	_	Lang=eng
-3	know	know	VERB	_	VerbForm=Inf	0	root	_	Lang=eng
-4	how	how	ADV	_	PronType=Int	7	advmod	_	Lang=eng
-5	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	Lang=eng
-6	wanna	wannan	AUX	_	VerbForm=Fin	7	aux	_	Lang=eng
-7	coach	coach	VERB	_	VerbForm=Inf	3	ccomp	_	Lang=eng
-8	it	it	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obj	_	Lang=eng
-9	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	Lang=eng
-10	know	know	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	Lang=eng
-11	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	Lang=eng
-12	want	want	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	ccomp	_	Lang=eng
-13	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	Lang=eng
-14	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	Lang=eng
-15	not	not	PART	_	_	16	advmod	_	Lang=eng
-16	going	go	VERB	_	Tense=Pres|VerbForm=Part	12	ccomp	_	Lang=eng
-17	to	to	PART	_	_	18	mark	_	Lang=eng
-18	remove	remove	VERB	_	VerbForm=Inf	16	xcomp	_	Lang=eng
-19	it	it	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	obj	_	Lang=eng
-20	but	but	CCONJ	_	_	24	cc	_	Lang=eng
-21	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	24	nsubj	_	Lang=eng
-22	wanna	wannan	AUX	_	VerbForm=Fin	24	aux	_	Lang=eng
-23	be	be	AUX	_	VerbForm=Inf	24	cop	_	Lang=eng
-24	able	able	ADJ	_	Degree=Pos	3	conj	_	Lang=eng
-25	to	to	PART	_	_	26	mark	_	Lang=eng
-26	say	say	VERB	_	VerbForm=Inf	24	xcomp	_	Lang=eng
-27	bueno	bueno	INTJ	_	_	26	obj	_	Lang=spa
-28	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	29	nsubj	_	Lang=eng
-29	know	know	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	Lang=eng
-30	it's	it's	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	Lang=eng
-31	no	no	ADV	_	_	32	advmod	_	Lang=eng
-32	different	different	ADJ	_	Degree=Pos	29	ccomp	_	Lang=eng
-33	than	than	SCONJ	_	_	34	case	_	Lang=eng
-34	whatever	whatever	PRON	_	PronType=Int	32	advcl	_	Lang=eng
-35	your	you	PRON	_	Person=2|Poss=Yes|PronType=Prs	36	nmod:poss	_	Lang=eng
-36	house	house	NOUN	_	Number=Sing	32	nsubj	_	Lang=eng
-37	your	you	PRON	_	Person=2|Poss=Yes|PronType=Prs	39	nmod:poss	_	Lang=eng
-38	street	street	NOUN	_	Number=Sing	39	compound	_	Lang=eng
-39	light	light	NOUN	_	Number=Sing	34	obj	_	Lang=eng
-40	or	or	CCONJ	_	_	41	cc	_	Lang=eng
-41	something	something	PRON	_	Number=Sing	39	conj	_	Lang=eng
-42	so	so	ADV	_	_	41	advmod	_	Lang=eng
+# labels = double-check
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Lang=eng
+2-3	don't	_	_	_	_	_	_	_	_
+2	do	don't	AUX	_	_	4	aux	_	Lang=eng
+3	n't	_	ADV	_	_	4	_	_	_
+4	know	know	VERB	_	VerbForm=Inf	0	root	_	Lang=eng
+5	how	how	ADV	_	PronType=Int	7	advmod	_	Lang=eng
+6	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	Lang=eng
+7-8	wanna	_	_	_	_	_	_	_	_
+7	wan	wannan	VERB	_	VerbForm=Fin	4	ccomp	_	Lang=eng
+8	na	_	PART	_	_	9	mark	_	_
+9	coach	coach	VERB	_	VerbForm=Inf	7	xcomp	_	Lang=eng
+10	it	it	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obj	_	Lang=eng
+11	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	Lang=eng
+12	know	know	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	discourse	_	Lang=eng
+13	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	Lang=eng
+14	want	want	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	reparandum	_	Lang=eng
+15	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	Lang=eng
+16	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	Lang=eng
+17	not	not	PART	_	_	18	advmod	_	Lang=eng
+18	going	go	VERB	_	Tense=Pres|VerbForm=Part	7	parataxis	_	Lang=eng
+19	to	to	PART	_	_	20	mark	_	Lang=eng
+20	remove	remove	VERB	_	VerbForm=Inf	18	xcomp	_	Lang=eng
+21	it	it	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	obj	_	Lang=eng
+22	but	but	CCONJ	_	_	24	cc	_	Lang=eng
+23	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	24	nsubj	_	Lang=eng
+24-25	wanna	_	_	_	_	_	_	_	_
+24	wan	wannan	VERB	_	VerbForm=Fin	18	conj	_	Lang=eng
+25	na	_	PART	_	_	27	mark	_	_
+26	be	be	AUX	_	VerbForm=Inf	27	aux	_	Lang=eng
+27	able	able	ADJ	_	Degree=Pos	24	xcomp	_	Lang=eng
+28	to	to	PART	_	_	29	mark	_	Lang=eng
+29	say	say	VERB	_	VerbForm=Inf	27	xcomp	_	Lang=eng
+30	bueno	bueno	INTJ	_	_	36	discourse	_	Lang=spa
+31	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	32	nsubj	_	Lang=eng
+32	know	know	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	36	discourse	_	Lang=eng
+33-34	it's	_	_	_	_	_	_	_	_
+33	it	it's	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	36	nsubj	_	Lang=eng
+34	's	_	AUX	_	_	36	cop	_	_
+35	no	no	ADV	_	_	36	advmod	_	Lang=eng
+36	different	different	ADJ	_	Degree=Pos	29	ccomp	_	Lang=eng
+37	than	than	SCONJ	_	_	38	case	_	Lang=eng
+38	whatever	whatever	PRON	_	PronType=Int	36	advcl	_	Lang=eng
+39	your	you	PRON	_	Person=2|Poss=Yes|PronType=Prs	40	nmod:poss	_	Lang=eng
+40	house	house	NOUN	_	Number=Sing	38	appos	_	Lang=eng
+41	your	you	PRON	_	Person=2|Poss=Yes|PronType=Prs	43	nmod:poss	_	Lang=eng
+42	street	street	NOUN	_	Number=Sing	43	compound	_	Lang=eng
+43	light	light	NOUN	_	Number=Sing	38	appos	_	Lang=eng
+44	or	or	CCONJ	_	_	45	cc	_	Lang=eng
+45	something	something	PRON	_	Number=Sing	43	conj	_	Lang=eng
+46	so	so	ADV	_	_	45	advmod	_	Lang=eng
 
 # sent_id = maria7:60
-# text = ok so it'll be the same thing and we may have to put house shi(elds you know home house shields on those para por lo menos quitar un poquitico porque he wants to at least show the
+# text = ok so it'll be the same thing and we may have to put house shields you know home house shields on those para por lo menos quitar un poquitico porque he wants to at least show the
 # text[orig] = ok so it'll be the same thing and we may have to put house shi(elds) you know home house shields on those para@s:spa por@s:spa lo@s:spa menos@s:spa quitar@s:spa un@s:spa poquitico@s:spa porque@s:spa he wants to at least show the +//. 208607_216683
 # gloss[orig] = unk so.ADV it.PRON.SUB.3S+BE.V.FUT be.V.3S.PRES the.DET.DEF same.ADJ thing.N.SG and.CONJ we.PRON.SUB.1P may.V.1P.PRES have.SV.INFIN to.PREP put.V.INFIN house.N.SG shield.N.PL you.PRON.SUB.2SP know.V.2SP.PRES home.ADV house.N.SG shield.N.PL on.PREP those.DEM.FAR.PL for.PREP for.PREP the.DET.DEF.NT.SG less.ADV.[or].except.PREP remove.V.INFIN one.DET.INDEF.M.SG little.ADJ.M.SG.DIM.DIM because.CONJ he.PRON.SUB.M.3S want.V.3S.PRES to.PREP at.PREP least.ADJ show.SV.INFIN the.DET.DEF
 # speaker = MAR
-1	ok	ok	INTJ	_	_	0	root	_	Lang=eng
-2	so	so	ADV	_	_	7	advmod	_	Lang=eng
-3	it'll	it'll	X	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	Lang=eng
-4	be	be	AUX	_	VerbForm=Inf	7	cop	_	Lang=eng
-5	the	the	DET	_	Definite=Def|PronType=Art	7	det	_	Lang=eng
-6	same	same	ADJ	_	Degree=Pos	7	amod	_	Lang=eng
-7	thing	thing	X	_	_	1	parataxis	_	Lang=eng
-8	and	and	CCONJ	_	_	11	cc	_	Lang=eng
-9	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	Lang=eng
-10	may	may	AUX	_	VerbForm=Fin	11	aux	_	Lang=eng
-11	have	have	VERB	_	VerbForm=Inf	7	conj	_	Lang=eng
-12	to	to	PART	_	_	13	mark	_	Lang=eng
-13	put	put	VERB	_	VerbForm=Inf	11	xcomp	_	Lang=eng
-14	house	house	X	_	_	13	obj	_	Lang=eng
-15	shi(elds	shi(elds	X	_	Number=Plur	13	obj	_	Lang=eng
-16	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	17	nsubj	_	Lang=eng
-17	know	know	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	parataxis	_	Lang=eng
-18	home	home	X	_	_	20	compound	_	Lang=eng
-19	house	house	NOUN	_	Number=Sing	20	compound	_	Lang=eng
-20	shields	shield	NOUN	_	Number=Plur	13	obj	_	Lang=eng
-21	on	on	ADP	_	_	22	case	_	Lang=eng
-22	those	those	PRON	_	Number=Plur|PronType=Dem	13	obl	_	Lang=eng
-23	para	para	ADP	_	_	27	mark	_	Lang=spa
-24	por	por	ADP	_	_	26	case	_	Lang=spa
-25	lo	lo	DET	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	det	_	Lang=spa|PrepCase=Npr
-26	menos	menos	ADV	_	Degree=Cmp	27	obl	_	Lang=spa
-27	quitar	quitar	VERB	_	VerbForm=Inf	13	advcl	_	Lang=spa
-28	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	Lang=spa
-29	poquitico	poquitico	NOUN	_	Number=Sing	27	obj	_	Lang=spa
-30	porque	porque	SCONJ	_	_	32	mark	_	Lang=spa
-31	he	he	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	Lang=eng
-32	wants	want	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	advcl	_	Lang=eng
-33	to	to	X	_	_	36	mark	_	Lang=eng
-34	at	at	X	_	_	36	advmod	_	Lang=eng
-35	least	least	X	_	Degree=Sup	36	advmod	_	Lang=eng
-36	show	show	VERB	_	VerbForm=Inf	32	xcomp	_	Lang=eng
-37	the	the	DET	_	_	36	obj	_	Lang=eng
+# labels = checked
+1	ok	ok	INTJ	_	_	8	discourse	_	Lang=eng
+2	so	so	ADV	_	_	8	advmod	_	Lang=eng
+3-4	it'll	_	_	_	_	_	_	_	_
+3	it	it'll	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	Lang=eng
+4	'll	_	AUX	_	_	8	aux	_	_
+5	be	be	AUX	_	VerbForm=Inf	8	cop	_	Lang=eng
+6	the	the	DET	_	Definite=Def|PronType=Art	8	det	_	Lang=eng
+7	same	same	ADJ	_	Degree=Pos	8	amod	_	Lang=eng
+8	thing	thing	NOUN	_	_	0	root	_	Lang=eng
+9	and	and	CCONJ	_	_	12	cc	_	Lang=eng
+10	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	Lang=eng
+11	may	may	AUX	_	VerbForm=Fin	12	aux	_	Lang=eng
+12	have	have	VERB	_	VerbForm=Inf	8	conj	_	Lang=eng
+13	to	to	PART	_	_	14	mark	_	Lang=eng
+14	put	put	VERB	_	VerbForm=Inf	12	xcomp	_	Lang=eng
+15	house	house	NOUN	_	_	16	compound	_	Lang=eng
+16	shields	shields	NOUN	_	Number=Plur	21	reparandum	_	Lang=eng
+17	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	18	nsubj	_	Lang=eng
+18	know	know	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	discourse	_	Lang=eng
+19	home	home	NOUN	_	_	21	compound	_	Lang=eng
+20	house	house	NOUN	_	Number=Sing	21	compound	_	Lang=eng
+21	shields	shield	NOUN	_	Number=Plur	14	obj	_	Lang=eng
+22	on	on	ADP	_	_	23	case	_	Lang=eng
+23	those	those	PRON	_	Number=Plur|PronType=Dem	14	obl	_	Lang=eng
+24	para	para	ADP	_	_	28	mark	_	Lang=spa
+25	por	por	ADP	_	_	27	case	_	Lang=spa
+26	lo	lo	DET	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	det	_	Lang=spa|PrepCase=Npr
+27	menos	menos	ADJ	_	Degree=Cmp	28	obl	_	Lang=spa
+28	quitar	quitar	VERB	_	VerbForm=Inf	14	advcl	_	Lang=spa
+29	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	Lang=spa
+30	poquitico	poquitico	NOUN	_	Number=Sing	28	obj	_	Lang=spa
+31	porque	porque	SCONJ	_	_	33	mark	_	Lang=spa
+32	he	he	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	Lang=eng
+33	wants	want	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	advcl	_	Lang=eng
+34	to	to	PART	_	_	37	mark	_	Lang=eng
+35	at	at	ADP	_	_	37	advmod	_	Lang=eng
+36	least	least	ADJ	_	Degree=Sup	35	fixed	_	Lang=eng
+37	show	show	VERB	_	VerbForm=Inf	33	xcomp	_	Lang=eng
+38	the	the	DET	_	_	37	obj	_	Lang=eng
 
 # sent_id = maria7:61
 # text = mira cuando no tenía un shield este era el luz que te tocaba .
 # text[orig] = mira@s:spa cuando@s:spa no@s:spa tenía@s:spa un@s:spa shield este@s:spa era@s:spa el@s:spa luz que@s:spa te@s:spa tocaba@s:spa . 216681_219665
 # gloss[orig] = look.V.2S.IMPER when.CONJ not.ADV have.V.13S.IMPERF one.DET.INDEF.M.SG shield.N.SG this.ADJ.DEM.M.SG era.N.F.SG the.DET.DEF.M.SG unk that.CONJ you.PRON.OBL.MF.2S touch.V.13S.IMPERF
 # speaker = MAR
+# labels = checked
 1	mira	mirar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Lang=spa
 2	cuando	cuando	SCONJ	_	_	4	mark	_	Lang=spa
 3	no	no	ADV	_	Polarity=Neg	4	advmod	_	Lang=spa
-4	tenía	tener	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	advcl	_	Lang=spa
+4	tenía	tener	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	advcl	_	Lang=spa
 5	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	Lang=spa
 6	shield	shield	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	Lang=eng
 7	este	este	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	10	nsubj	_	Lang=spa
@@ -10752,16 +10773,17 @@
 # text = no te sientes cómoda de enseñármelo to showing it to me ?
 # text[orig] = no@s:spa te@s:spa sientes@s:spa cómoda@s:spa de@s:spa enseñármelo@s:spa to showing it to me ? 53271_56295
 # speaker = MAR
+# labels = checked
 1	no	no	ADV	_	Polarity=Neg	3	advmod	_	Lang=spa
 2	te	tú	PRON	_	Case=Acc,Dat|Number=Sing|Person=2|PronType=Prs	3	iobj	_	Lang=spa|PrepCase=Npr
 3	sientes	senteir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Lang=spa
 4	cómoda	cómodo	ADJ	_	Gender=Fem|Number=Sing	3	xcomp	_	Lang=spa
 5	de	de	ADP	_	_	6	mark	_	Lang=spa
-6	enseñármelo	enseñármelo	VERB	_	VerbForm=Inf	4	nmod	_	Lang=spa
-7	to	to	X	_	_	8	case	_	Lang=eng
-8	showing	showing	X	_	VerbForm=Ger	4	advcl	_	Lang=eng
+6	enseñármelo	enseñármelo	VERB	_	VerbForm=Inf	8	reparandum	_	Lang=spa
+7	to	to	PART	_	_	8	mark	_	Lang=eng
+8	showing	showing	VERB	_	VerbForm=Ger	4	acl	_	Lang=eng
 9	it	it	PRON	_	Number=Sing|Person=3	8	obj	_	Lang=eng
-10	to	to	X	_	_	11	case	_	Lang=eng
+10	to	to	ADP	_	_	11	case	_	Lang=eng
 11	me	yo	PRON	_	Case=Acc,Dat|Number=Sing|Person=1|PronType=Prs	8	obl	_	Lang=eng|PrepCase=Npr
 12	?	?	PUNCT	_	_	3	punct	_	_
 
@@ -10770,6 +10792,7 @@
 # text[orig] = o_k@s:eng&spa no@s:spa me@s:spa lo@s:spa enseñes@s:spa en@s:spa dos@s:spa horas@s:spa antes@s:spa de@s:spa due . 56276_59306
 # gloss[orig] = OK.IM not.ADV me.PRON.OBL.MF.1S him.PRON.OBJ.M.3S teach.V.2S.SUBJ.PRES in.PREP two.NUM time.N.F.PL before.ADV of.PREP due.N.SG
 # speaker = MAR
+# labels = double-check
 1	ok	ok	INTJ	_	_	5	discourse	_	Lang=eng&spa
 2	no	no	ADV	_	Polarity=Neg	5	advmod	_	Lang=spa
 3	me	yo	PRON	_	Case=Acc,Dat|Number=Sing|Person=1|PronType=Prs	5	iobj	_	Lang=spa|PrepCase=Npr
@@ -10779,8 +10802,8 @@
 7	dos	dos	NUM	_	Number=Plur|NumType=Card	8	nummod	_	Lang=spa
 8	horas	hora	NOUN	_	Gender=Fem|Number=Plur	5	obl	_	Lang=spa
 9	antes	antes	ADV	_	_	8	advmod	_	Lang=spa
-10	de	de	ADP	_	_	9	fixed	_	Lang=spa
-11	due	due	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	Lang=eng
+10	de	de	ADP	_	_	11	mark	_	Lang=spa
+11	due	due	ADJ	_	Gender=Masc|Number=Sing	9	advcl	_	Lang=eng
 12	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = maria2:19
@@ -10788,42 +10811,49 @@
 # text[orig] = chica@s:spa te@s:spa hace@s:spa falta@s:spa un@s:spa new calendar . 60835_62430
 # gloss[orig] = lad.N.F.SG you.PRON.OBL.MF.2S do.V.3S.PRES fault.N.F.SG.[or].lack.V.2S.IMPER.[or].lack.V.3S.PRES one.DET.INDEF.M.SG new.ADJ calendar.N.SG
 # speaker = MAR
+# labels = checked
 1	chica	chica	NOUN	_	Gender=Fem|Number=Sing	3	vocative	_	Lang=spa
 2	te	tú	PRON	_	Case=Acc,Dat|Number=Sing|Person=2|PronType=Prs	3	iobj	_	Lang=spa|PrepCase=Npr
 3	hace	hacer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Lang=spa
 4	falta	falta	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	Lang=spa
 5	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	Lang=spa
-6	new	new	X	_	Gender=Masc|Number=Sing	7	amod	_	Lang=eng
-7	calendar	calendar	X	_	Gender=Masc|Number=Sing	3	obj	_	Lang=eng
+6	new	new	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	Lang=eng
+7	calendar	calendar	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	Lang=eng
 8	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = sastre8:20
-# text = but I think that they're they're high enough so that ├®l no se
-# text[orig] = but I think that they're [/] they're high enough (.) so that ├®l@s:spa no@s:spa se@s:spa &f +/. 35197_39482
+# text = but I think that they're they're high enough so that él no se
+# text[orig] = but I think that they're [/] they're high enough (.) so that él@s:spa no@s:spa se@s:spa &f +/. 35197_39482
 # gloss[orig] = but.CONJ I.PRON.SUB.1S think.V.1S.PRES that.CONJ.[or].that.DEM.FAR they.PRON.SUB.3P+BE.V.PRES they.PRON.SUB.3P+BE.V.PRES high.ADJ enough.ADJ so.ADV that.CONJ he.PRON.SUB.M.3S not.ADV be.V.2P.IMPER.PRECLITIC
 # speaker = PAO
+# labels = checked
 1	but	but	CCONJ	_	_	3	cc	_	Lang=eng
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Lang=eng
 3	think	think	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
-4	that	that	SCONJ	_	_	8	mark	_	Lang=eng
-5	they're	they're	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	Lang=eng
-6	they're	they're	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	Lang=eng
-7	high	high	ADJ	_	Degree=Pos	8	amod	_	Lang=eng
-8	enough	enough	ADJ	_	Degree=Pos	3	ccomp	_	Lang=eng
-9	so	so	ADV	_	_	8	mark	_	Lang=eng
-10	that	that	SCONJ	_	_	9	fixed	_	Lang=eng
-11	├®l	├®l	X	_	_	8	dep	_	Lang=spa
-12	no	no	INTJ	_	_	13	discourse	_	Lang=spa
-13	se	se	X	_	_	3	parataxis	_	Lang=spa
+4	that	that	SCONJ	_	_	9	mark	_	Lang=eng
+5-6	they're	_	_	_	_	_	_	_	_
+5	they	they're	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	reparandum	_	Lang=eng
+6	're	_	AUX	_	_	8	reparandum	_	_
+7-8	they're	_	_	_	_	_	_	_	_
+7	they	they're	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	Lang=eng
+8	're	_	AUX	_	_	9	cop	_	_
+9	high	high	ADJ	_	Degree=Pos	3	ccomp	_	Lang=eng
+10	enough	enough	ADV	_	Degree=Pos	9	advmod	_	Lang=eng
+11	so	so	SCONJ	_	_	13	mark	_	Lang=eng
+12	that	that	SCONJ	_	_	11	fixed	_	Lang=eng
+13	él	él	PRON	_	_	9	acl	_	Lang=spa
+14	no	no	INTJ	_	_	15	discourse	_	Lang=spa
+15	se	se	VERB	_	_	9	parataxis	_	Lang=spa
 
 # sent_id = sastre8:22
-# text = because si ├®l ve un gato or something he might jump out of the car after the cat .
-# text[orig] = because si@s:spa ├®l@s:spa ve@s:spa un@s:spa gato@s:spa or something he might jump out of the car (.) after the cat . 39834_45149
+# text = because si él ve un gato or something he might jump out of the car after the cat .
+# text[orig] = because si@s:spa él@s:spa ve@s:spa un@s:spa gato@s:spa or something he might jump out of the car (.) after the cat . 39834_45149
 # gloss[orig] = because.CONJ if.CONJ he.PRON.SUB.M.3S go.V.2S.IMPER.[or].see.V.2S.IMPER.[or].see.V.3S.PRES one.DET.INDEF.M.SG cat.N.M.SG or.CONJ something.PRON he.PRON.SUB.M.3S might.V.3S.PRES jump.SV.INFIN out.ADV of.PREP the.DET.DEF car.N.SG after.PREP the.DET.DEF cat.N.SG
 # speaker = AUD
+# labels = checked
 1	because	because	SCONJ	_	_	11	mark	_	Lang=eng
 2	si	si	SCONJ	_	_	4	mark	_	Lang=spa
-3	├®l	├®l	PRON	_	Number=Sing	4	nsubj	_	Lang=spa
+3	él	él	PRON	_	Number=Sing	4	nsubj	_	Lang=spa
 4	ve	ve	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	advcl	_	Lang=spa
 5	un	un	DET	_	Definite=Ind|PronType=Art	6	det	_	Lang=spa
 6	gato	gato	NOUN	_	Number=Sing	4	obj	_	Lang=spa
@@ -10842,22 +10872,24 @@
 19	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = sastre8:27
-# text = s├¡ people s├¡ .
-# text[orig] = +< s├¡@s:spa people s├¡@s:spa . 51074_52241
+# text = sí people sí .
+# text[orig] = +< sí@s:spa people sí@s:spa . 51074_52241
 # gloss[orig] = yes.ADV people.N.SG yes.ADV
 # speaker = AUD
-1	s├¡	s├¡	X	_	_	2	nummod	_	Lang=spa
+# labels = checked
+1	sí	sí	INTJ	_	_	2	discourse	_	Lang=spa
 2	people	people	NOUN	_	Number=Plur	0	root	_	Lang=eng
-3	s├¡	s├¡	X	_	_	2	flat:foreign	_	Lang=spa
+3	sí	sí	INTJ	_	_	2	discourse	_	Lang=spa
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = sastre8:40
-# text = que t├║ has entrado en el team de voleibol muchacha .
-# text[orig] = que@s:spa t├║@s:spa has@s:spa entrado@s:spa en@s:spa el@s:spa team de@s:spa voleibol@s:spa muchacha@s:spa . 65780_68026
+# text = que tú has entrado en el team de voleibol muchacha .
+# text[orig] = que@s:spa tú@s:spa has@s:spa entrado@s:spa en@s:spa el@s:spa team de@s:spa voleibol@s:spa muchacha@s:spa . 65780_68026
 # gloss[orig] = that.CONJ you.PRON.SUB.MF.2S have.V.2S.PRES enter.V.PASTPART in.PREP the.DET.DEF.M.SG team.N.SG of.PREP volleyball.N.M.SG.[or].volleyball.N.M.SG girl.N.F.SG
 # speaker = AUD
+# labels = checked
 1	que	que	SCONJ	_	_	4	mark	_	Lang=spa
-2	t├║	t├║	X	_	_	4	advmod	_	Lang=spa
+2	tú	tú	PRON	_	_	4	advmod	_	Lang=spa
 3	has	haber	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	Lang=spa
 4	entrado	entrar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	Lang=spa
 5	en	en	ADP	_	_	7	case	_	Lang=spa
@@ -10865,7 +10897,7 @@
 7	team	team	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	Lang=eng
 8	de	de	ADP	_	_	9	case	_	Lang=spa
 9	voleibol	voleibol	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	Lang=spa
-10	muchacha	muchacha	NOUN	_	Gender=Fem|Number=Sing	4	dep	_	Lang=spa
+10	muchacha	muchacha	NOUN	_	Gender=Fem|Number=Sing	4	vocative	_	Lang=spa
 11	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = sastre8:48
@@ -10873,6 +10905,7 @@
 # text[orig] = pero@s:spa it was completely different . 78618_80528
 # gloss[orig] = but.CONJ it.PRON.SUB.3S was.V.3S.PAST complete.ADJ+ADV.[or].completely.ADV different.ADJ
 # speaker = PAO
+# labels = checked
 1	pero	pero	CCONJ	_	_	5	cc	_	Lang=spa
 2	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	Lang=eng
 3	was	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	Lang=eng
@@ -10885,31 +10918,36 @@
 # text[orig] = pero@s:spa for the first time +/. 83794_85698
 # gloss[orig] = but.CONJ for.PREP the.DET.DEF first.ADJ time.N.SG
 # speaker = PAO
-1	pero	pero	PROPN	_	_	0	root	_	Lang=spa
+# labels = checked
+1	pero	pero	PROPN	_	_	5	cc	_	Lang=spa
 2	for	for	ADP	_	_	5	case	_	Lang=eng
 3	the	the	DET	_	Definite=Def|PronType=Art	5	det	_	Lang=eng
 4	first	first	ADJ	_	Degree=Pos|NumType=Ord	5	amod	_	Lang=eng
-5	time	time	NOUN	_	Number=Sing	1	obl	_	Lang=eng
+5	time	time	NOUN	_	Number=Sing	0	root	_	Lang=eng
 
 # sent_id = sastre8:56
-# text = and t├║ sabes it wasn't the same .
-# text[orig] = and (.) t├║@s:spa sabes@s:spa (.) it wasn't the same . 89233_93238
+# text = and tú sabes it wasn't the same .
+# text[orig] = and (.) tú@s:spa sabes@s:spa (.) it wasn't the same . 89233_93238
 # gloss[orig] = and.CONJ you.PRON.SUB.MF.2S know.V.2S.PRES it.PRON.SUB.3S was.V.3S.PAST+NEG the.DET.DEF same.ADJ
 # speaker = PAO
+# labels = checked
 1	and	and	CCONJ	_	_	3	cc	_	Lang=eng
-2	t├║	t├║	X	_	Number=Sing	3	nsubj	_	Lang=spa
+2	tú	tú	PRON	_	Number=Sing	3	nsubj	_	Lang=spa
 3	sabes	sabe	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Lang=spa
-4	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	Lang=eng
-5	wasn't	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	Lang=eng
-6	the	the	DET	_	Definite=Def|PronType=Art	7	det	_	Lang=eng
-7	same	same	ADJ	_	Degree=Pos	3	ccomp	_	Lang=eng
-8	.	.	PUNCT	_	_	3	punct	_	_
+4	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	Lang=eng
+5-6	wasn't	_	_	_	_	_	_	_	_
+5	was	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	Lang=eng
+6	n't	_	ADV	_	_	8	aux	_	_
+7	the	the	DET	_	Definite=Def|PronType=Art	8	det	_	Lang=eng
+8	same	same	ADJ	_	Degree=Pos	3	ccomp	_	Lang=eng
+9	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = sastre8:57
 # text = pero now I actually get to go into a team where I got I actually get to play the game .
 # text[orig] = pero@s:spa now I actually get to go into a team (.) where <I got> [//] I actually get to play the game . 93213_98554
 # gloss[orig] = but.CONJ now.ADV I.PRON.SUB.1S actual.ADJ+ADV get.V.INFIN to.PREP go.V.INFIN into.PREP a.DET.INDEF team.N.SG where.REL I.PRON.SUB.1S got.V.PAST I.PRON.SUB.1S actual.ADJ+ADV get.V.INFIN to.PREP play.V.INFIN the.DET.DEF game.N.SG
 # speaker = PAO
+# labels = checked
 1	pero	pero	CCONJ	_	_	5	cc	_	Lang=spa
 2	now	now	ADV	_	_	5	advmod	_	Lang=eng
 3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	Lang=eng
@@ -10920,12 +10958,12 @@
 8	into	into	ADP	_	_	10	case	_	Lang=eng
 9	a	a	DET	_	Definite=Ind|PronType=Art	10	det	_	Lang=eng
 10	team	team	NOUN	_	Number=Sing	7	obl	_	Lang=eng
-11	where	where	ADV	_	PronType=Rel	13	advmod	_	Lang=eng
+11	where	where	ADV	_	PronType=Rel	16	advmod	_	Lang=eng
 12	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	Lang=eng
-13	got	get	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	acl:relcl	_	Lang=eng
+13	got	get	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	16	reparandum	_	Lang=eng
 14	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	Lang=eng
 15	actually	actually	ADV	_	_	16	advmod	_	Lang=eng
-16	get	get	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	Lang=eng
+16	get	get	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	acl	_	Lang=eng
 17	to	to	PART	_	_	18	mark	_	Lang=eng
 18	play	play	VERB	_	VerbForm=Inf	16	xcomp	_	Lang=eng
 19	the	the	DET	_	Definite=Def|PronType=Art	20	det	_	Lang=eng
@@ -10937,76 +10975,87 @@
 # text[orig] = because I wasn't sure if I was gonna be able to (.) you know entrar@s:spa el@s:spa team like if I was gonna make it . 101491_108558
 # gloss[orig] = because.CONJ I.PRON.SUB.1S was.V.13S.PAST+NEG sure.ADJ if.CONJ I.PRON.SUB.1S was.V.13S.PAST go.V.PRESPART+TO.PREP be.V.INFIN able.ADJ to.PREP you.PRON.SUB.2SP know.V.2SP.PRES enter.V.INFIN the.DET.DEF.M.SG team.N.SG like.CONJ.[or].like.N.SG if.CONJ I.PRON.SUB.1S was.V.13S.PAST go.V.PRESPART+TO.PREP make.V.INFIN it.PRON.OBJ.3S
 # speaker = PAO
-1	because	because	SCONJ	_	_	4	mark	_	Lang=eng
-2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Lang=eng
-3	wasn't	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	Lang=eng
-4	sure	sure	ADJ	_	Degree=Pos	0	root	_	Lang=eng
-5	if	if	SCONJ	_	_	10	mark	_	Lang=eng
-6	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	Lang=eng
-7	was	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	Lang=eng
-8	gonna	gonna	AUX	_	VerbForm=Fin	10	advcl	_	Lang=eng
-9	be	be	AUX	_	VerbForm=Inf	10	cop	_	Lang=eng
-10	able	able	ADJ	_	Degree=Pos	4	ccomp	_	Lang=eng
-11	to	to	PART	_	_	13	mark	_	Lang=eng
-12	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	Lang=eng
-13	know	know	VERB	_	VerbForm=Inf	10	xcomp	_	Lang=eng
-14	entrar	entrar	VERB	_	VerbForm=Inf	13	xcomp	_	Lang=spa
-15	el	el	ADP	_	_	16	case	_	Lang=spa
-16	team	team	NOUN	_	Number=Sing	14	obl	_	Lang=eng
-17	like	like	SCONJ	_	_	22	mark	_	Lang=eng
-18	if	if	SCONJ	_	_	22	mark	_	Lang=eng
-19	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	Lang=eng
-20	was	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	aux	_	Lang=eng
-21	gonna	gonna	AUX	_	VerbForm=Fin	22	aux	_	Lang=eng
-22	make	make	VERB	_	VerbForm=Inf	13	advcl	_	Lang=eng
-23	it	it	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	obj	_	Lang=eng
-24	.	.	PUNCT	_	_	4	punct	_	_
+# labels = checked
+1	because	because	SCONJ	_	_	5	mark	_	Lang=eng
+2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	Lang=eng
+3-4	wasn't	_	_	_	_	_	_	_	_
+3	was	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	Lang=eng
+4	n't	_	ADV	_	_	5	cop	_	_
+5	sure	sure	ADJ	_	Degree=Pos	0	root	_	Lang=eng
+6	if	if	SCONJ	_	_	9	mark	_	Lang=eng
+7	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	Lang=eng
+8	was	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	Lang=eng
+9-10	gonna	_	_	_	_	_	_	_	_
+9	gon	gonna	VERB	_	VerbForm=Fin	5	advcl	_	Lang=eng
+10	na	_	PART	_	_	12	mark	_	_
+11	be	be	AUX	_	VerbForm=Inf	12	cop	_	Lang=eng
+12	able	able	ADJ	_	Degree=Pos	9	xcomp	_	Lang=eng
+13	to	to	PART	_	_	16	mark	_	Lang=eng
+14	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	15	nsubj	_	Lang=eng
+15	know	know	VERB	_	VerbForm=Inf	16	discourse	_	Lang=eng
+16	entrar	entrar	VERB	_	VerbForm=Inf	12	xcomp	_	Lang=spa
+17	el	el	ADP	_	_	18	case	_	Lang=spa
+18	team	team	NOUN	_	Number=Sing	16	obl	_	Lang=eng
+19	like	like	ADP	_	_	24	discourse	_	Lang=eng
+20	if	if	SCONJ	_	_	24	mark	_	Lang=eng
+21	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	nsubj	_	Lang=eng
+22	was	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	aux	_	Lang=eng
+23	gonna	gonna	AUX	_	VerbForm=Fin	24	aux	_	Lang=eng
+24	make	make	VERB	_	VerbForm=Inf	9	conj	_	Lang=eng
+25	it	it	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	obj	_	Lang=eng
+26	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = sastre8:62
-# text = pero me dijo tu mam├í con la ni├▒a que before was in the team she didn't make it ?
-# text[orig] = pero@s:spa me@s:spa dijo@s:spa tu@s:spa mam├í@s:spa con@s:spa la@s:spa ni├▒a@s:spa que@s:spa before was in the team she didn't make it ? 114802_119382
+# text = pero me dijo tu mamá que la niña que before was in the team she didn't make it ?
+# text[orig] = pero@s:spa me@s:spa dijo@s:spa tu@s:spa mamá@s:spa con@s:spa la@s:spa niña@s:spa que@s:spa before was in the team she didn't make it ? 114802_119382
 # gloss[orig] = but.CONJ me.PRON.OBL.MF.1S tell.V.3S.PAST your.ADJ.POSS.MF.2S.SG mum.N.F.SG with.PREP the.DET.DEF.F.SG kid.N.F.SG that.PRON.REL before.CONJ was.V.3S.PAST in.PREP the.DET.DEF team.N.SG she.PRON.SUB.F.3S did.V.PAST+NEG make.SV.INFIN it.PRON.OBJ.3S
 # speaker = AUD
+# note = I changed "con" (word 6) to "que" after listening to the transcript...
+# labels = checked
 1	pero	pero	CCONJ	_	_	3	cc	_	Lang=spa
 2	me	yo	PRON	_	Case=Acc,Dat|Number=Sing|Person=1|PronType=Prs	3	iobj	_	Lang=spa|PrepCase=Npr
 3	dijo	decir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Lang=spa
 4	tu	tu	DET	_	Number=Sing|Person=2|Poss=Yes|PronType=Prs	5	det	_	Lang=spa
-5	mam├í	mam├í	X	_	Gender=Fem|Number=Sing	3	nsubj	_	Lang=spa
-6	con	con	ADP	_	_	7	case	_	Lang=spa
-7	la	él	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	obl	_	Lang=spa
-8	ni├▒a	ni├▒a	X	_	_	3	punct	_	Lang=spa
-9	que	que	X	_	_	10	dep	_	Lang=spa
-10	before	before	X	_	_	3	ccomp	_	Lang=eng
-11	was	was	X	_	Number=Sing|Person=3	10	dep	_	Lang=eng
-12	in	in	ADP	_	_	10	dep	_	Lang=eng
-13	the	the	DET	_	Foreign=Yes	10	dep	_	Lang=eng
-14	team	team	X	_	Foreign=Yes	10	flat	_	Lang=eng
-15	she	she	PRON	_	Number=Sing|Person=3	10	dep	_	Lang=eng
-16	didn't	didn't	X	_	_	10	flat	_	Lang=eng
-17	make	make	X	_	_	10	flat	_	Lang=eng
-18	it	it	PRON	_	Number=Sing|Person=3	10	dep	_	Lang=eng
-19	?	?	PUNCT	_	_	3	punct	_	_
+5	mamá	mamá	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	Lang=spa
+6	que	que	SCONJ	_	_	18	mark	_	Lang=spa
+7	la	él	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	Lang=spa
+8	niña	niña	NOUN	_	_	18	dislocated	_	Lang=spa
+9	que	que	PRON	_	_	11	nsubj	_	Lang=spa
+10	before	before	ADV	_	_	14	advmod	_	Lang=eng
+11	was	was	AUX	_	Number=Sing|Person=3	14	cop	_	Lang=eng
+12	in	in	ADP	_	_	14	case	_	Lang=eng
+13	the	the	DET	_	Foreign=Yes	14	det	_	Lang=eng
+14	team	team	NOUN	_	Foreign=Yes	8	acl	_	Lang=eng
+15	she	she	PRON	_	Number=Sing|Person=3	18	nsubj	_	Lang=eng
+16-17	didn't	_	_	_	_	_	_	_	_
+16	did	didn't	AUX	_	_	18	aux	_	Lang=eng
+17	n't	_	ADV	_	_	18	advmod	_	_
+18	make	make	VERB	_	_	3	ccomp	_	Lang=eng
+19	it	it	PRON	_	Number=Sing|Person=3	18	obj	_	Lang=eng
+20	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = sastre8:68
 # text = pero I thought ella fue like very good .
 # text[orig] = pero@s:spa I thought ella@s:spa fue@s:spa &m like very good . 125978_128416
 # gloss[orig] = but.CONJ I.PRON.SUB.1S thought.V.PAST she.PRON.SUB.F.3S be.V.3S.PAST like.CONJ very.ADV good.ADJ
 # speaker = PAO
-1	pero	pero	CCONJ	_	_	2	cc	_	Lang=spa
-2	I	I	PRON	_	_	0	root	_	Lang=eng
-3	thought	thought	X	_	_	2	flat	_	Lang=eng
-4	ella	él	PRON	_	Case=Acc,Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	Lang=spa
-5	fue	ser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	Lang=spa
-6	like	like	X	_	_	2	flat	_	Lang=eng
-7	very	very	ADV	_	Gender=Masc|Number=Sing	2	flat	_	Lang=eng
-8	good	good	X	_	Foreign=Yes	2	flat	_	Lang=eng
-9	.	.	PUNCT	_	_	2	punct	_	_
+# labels = checked
+1	pero	pero	CCONJ	_	_	3	cc	_	Lang=spa
+2	I	I	PRON	_	_	3	nsubj	_	Lang=eng
+3	thought	thought	VERB	_	_	0	root	_	Lang=eng
+4	ella	él	PRON	_	Case=Acc,Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	Lang=spa
+5	fue	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	Lang=spa
+6	like	like	ADP	_	_	8	discourse	_	Lang=eng
+7	very	very	ADV	_	Gender=Masc|Number=Sing	8	advmod	_	Lang=eng
+8	good	good	ADJ	_	Foreign=Yes	3	_	_	Lang=eng
+9	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = sastre8:147
 # text = ay ay yo vi los kneepads .
 # text[orig] = ay@s:spa ay@s:spa yo@s:spa vi@s:spa los@s:spa kneepads . 275028_276305
 # gloss[orig] = oh.IM oh.IM I.PRON.SUB.MF.1S see.V.1S.PAST the.DET.DEF.M.PL kneepad.N.PL
 # speaker = AUD
+# labels = checked
 1	ay	ay	INTJ	_	_	4	discourse	_	Lang=spa
 2	ay	ay	INTJ	_	_	4	discourse	_	Lang=spa
 3	yo	yo	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Lang=spa
@@ -11016,15 +11065,16 @@
 7	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = sastre8:156
-# text = es m├ís que hurt yourself .
-# text[orig] = es@s:spa m├ís@s:spa que@s:spa hurt yourself . 291602_292786
+# text = es más que hurt yourself .
+# text[orig] = es@s:spa más@s:spa que@s:spa hurt yourself . 291602_292786
 # gloss[orig] = be.V.3S.PRES more.ADV that.CONJ hurt.V.INFIN yourself.PRON.REFL.2SP
 # speaker = AUD
-1	es	es	PRON	_	_	2	nsubj	_	Lang=spa
-2	m├ís	m├ís	X	_	_	0	root	_	Lang=spa
+# labels = checked
+1	es	es	AUX	_	_	2	cop	_	Lang=spa
+2	más	más	ADJ	_	_	0	root	_	Lang=spa
 3	que	que	SCONJ	_	_	4	mark	_	Lang=spa
-4	hurt	hurt	X	_	_	1	flat	_	Lang=eng
-5	yourself	yourself	X	_	_	1	flat	_	Lang=eng
+4	hurt	hurt	VERB	_	_	2	advcl	_	Lang=eng
+5	yourself	yourself	PRON	_	_	4	obj	_	Lang=eng
 6	.	.	PUNCT	_	_	2	punct	_	PunctType=Peri
 
 # sent_id = sastre8:171
@@ -11032,57 +11082,66 @@
 # text[orig] = bueno@s:spa we're [//] I'm probably gonna have to start eating at the school . 315658_319205
 # gloss[orig] = well.E we.PRON.SUB.1P+BE.V.PRES I.PRON.SUB.1S+BE.V.PRES probably.ADV go.V.PRESPART+TO.PREP have.V.INFIN to.PREP start.V.INFIN unk at.PREP the.DET.DEF school.N.SG
 # speaker = PAO
-1	bueno	bueno	INTJ	_	_	6	discourse	_	Lang=spa
-2	we're	we're	X	_	_	6	nsubj	_	Lang=eng
-3	I'm	I'M	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	Lang=eng
-4	probably	probably	ADV	_	_	6	advmod	_	Lang=eng
-5	gonna	gonna	AUX	_	VerbForm=Fin	6	aux	_	Lang=eng
-6	have	have	VERB	_	VerbForm=Inf	0	root	_	Lang=eng
-7	to	to	PART	_	_	8	mark	_	Lang=eng
-8	start	start	VERB	_	VerbForm=Inf	6	xcomp	_	Lang=eng
-9	eating	eat	VERB	_	VerbForm=Ger	8	xcomp	_	Lang=eng
-10	at	at	ADP	_	_	12	case	_	Lang=eng
-11	the	the	DET	_	Definite=Def|PronType=Art	12	det	_	Lang=eng
-12	school	school	NOUN	_	Number=Sing	9	obl	_	Lang=eng
-13	.	.	PUNCT	_	_	6	punct	_	_
+# labels = checked
+1	bueno	bueno	INTJ	_	_	7	discourse	_	Lang=spa
+2-3	we're	_	_	_	_	_	_	_	_
+2	we	we're	PRON	_	_	4	reparandum	_	Lang=eng
+3	're	_	AUX	_	_	5	reparandum	_	_
+4-5	I'm	_	_	_	_	_	_	_	_
+4	I	I'M	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	Lang=eng
+5	'm	_	AUX	_	_	7	aux	_	_
+6	probably	probably	ADV	_	_	7	advmod	_	Lang=eng
+7-8	gonna	_	_	_	_	_	_	_	_
+7	gon	gonna	VERB	_	VerbForm=Fin	0	root	_	Lang=eng
+8	na	_	PART	_	_	9	mark	_	_
+9	have	have	VERB	_	VerbForm=Inf	7	xcomp	_	Lang=eng
+10	to	to	PART	_	_	11	mark	_	Lang=eng
+11	start	start	VERB	_	VerbForm=Inf	9	xcomp	_	Lang=eng
+12	eating	eat	VERB	_	VerbForm=Ger	11	xcomp	_	Lang=eng
+13	at	at	ADP	_	_	15	case	_	Lang=eng
+14	the	the	DET	_	Definite=Def|PronType=Art	15	det	_	Lang=eng
+15	school	school	NOUN	_	Number=Sing	12	obl	_	Lang=eng
+16	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = sastre8:176
 # text = entonces then I will I will I will not be buying any stuff for you this weekend .
 # text[orig] = entonces@s:spa then <I will> [/] <I will> [/] I will not be buying any stuff (.) for you this weekend . 324860_330180
 # gloss[orig] = then.ADV then.ADV I.PRON.SUB.1S will.V.1S.FUT I.PRON.SUB.1S will.V.1S.FUT I.PRON.SUB.1S will.V.1S.FUT not.ADV be.SV.INFIN buy.V.PRESPART any.ADJ stuff.SV.INFIN for.PREP you.PRON.OBJ.2SP this.DEM.NEAR.SG weekend.N.SG
 # speaker = AUD
-1	entonces	entonces	CCONJ	_	_	3	advmod	_	Lang=spa
-2	then	then	X	_	_	3	advmod	_	Lang=eng
-3	I	I	PRON	_	_	0	root	_	Lang=eng
-4	will	will	X	_	_	3	flat	_	Lang=eng
-5	I	I	PRON	_	_	3	flat	_	Lang=eng
-6	will	will	X	_	_	3	flat	_	Lang=eng
-7	I	I	PRON	_	_	3	flat	_	Lang=eng
-8	will	will	X	_	_	3	flat	_	Lang=eng
-9	not	not	X	_	_	3	flat	_	Lang=eng
-10	be	be	X	_	_	3	flat	_	Lang=eng
-11	buying	buying	X	_	_	3	flat	_	Lang=eng
-12	any	any	X	_	Number=Sing	3	flat	_	Lang=eng
-13	stuff	stuff	X	_	Gender=Masc	3	flat	_	Lang=eng
-14	for	for	X	_	_	3	flat	_	Lang=eng
-15	you	you	PRON	_	_	14	flat	_	Lang=eng
-16	this	this	X	_	Number=Sing	17	compound	_	Lang=eng
-17	weekend	weekend	X	_	Number=Sing	3	appos	_	Lang=eng
-18	.	.	PUNCT	_	_	3	punct	_	_
+# labels = checked
+1	entonces	entonces	CCONJ	_	_	2	reparandum	_	Lang=spa
+2	then	then	ADV	_	_	11	advmod	_	Lang=eng
+3	I	I	PRON	_	_	7	reparandum	_	Lang=eng
+4	will	will	AUX	_	_	8	reparandum	_	Lang=eng
+5	I	I	PRON	_	_	7	reparandum	_	Lang=eng
+6	will	will	AUX	_	_	8	reparandum	_	Lang=eng
+7	I	I	PRON	_	_	11	nsubj	_	Lang=eng
+8	will	will	AUX	_	_	11	aux	_	Lang=eng
+9	not	not	ADV	_	_	11	advmod	_	Lang=eng
+10	be	be	AUX	_	_	11	aux	_	Lang=eng
+11	buying	buying	VERB	_	_	0	root	_	Lang=eng
+12	any	any	DET	_	Number=Sing	13	det	_	Lang=eng
+13	stuff	stuff	NOUN	_	Gender=Masc	11	obj	_	Lang=eng
+14	for	for	ADP	_	_	15	case	_	Lang=eng
+15	you	you	PRON	_	_	11	obl	_	Lang=eng
+16	this	this	DET	_	Number=Sing	17	det	_	Lang=eng
+17	weekend	weekend	NOUN	_	Number=Sing	11	obl	_	Lang=eng
+18	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = sastre8:188
-# text = maybe I I can take ah some ag├╝itas to you .
-# text[orig] = maybe I [/] I can take ah@s:eng&spa some ag├╝itas@s:spa to you . 349366_351978
+# text = maybe I I can take ah some agüitas to you .
+# text[orig] = maybe I [/] I can take ah@s:eng&spa some agüitas@s:spa to you . 349366_351978
 # gloss[orig] = maybe.ADV I.PRON.SUB.1S I.PRON.SUB.1S can.V.1S.PRES take.V.INFIN ah.IM some.ADJ herbal_tea.N.F.PL to.PREP you.PRON.SUB.2SP
 # speaker = AUD
+# labels = checked
 1	maybe	maybe	ADV	_	_	5	advmod	_	Lang=eng
-2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	Lang=eng
+2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	reparandum	_	Lang=eng
 3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	Lang=eng
 4	can	can	AUX	_	VerbForm=Fin	5	aux	_	Lang=eng
 5	take	take	VERB	_	VerbForm=Inf	0	root	_	Lang=eng
 6	ah	ah	INTJ	_	_	5	discourse	_	Lang=eng&spa
-7	some	some	DET	_	_	5	obj	_	Lang=eng
-8	ag├╝itas	ag├╝itas	NOUN	_	Number=Plur	5	obj	_	Lang=spa
+7	some	some	DET	_	_	8	det	_	Lang=eng
+8	agüitas	agüitas	NOUN	_	Number=Plur	5	obj	_	Lang=spa
 9	to	to	ADP	_	_	10	case	_	Lang=eng
 10	you	you	PRON	_	Case=Acc|Person=2|PronType=Prs	5	obl	_	Lang=eng
 11	.	.	PUNCT	_	_	5	punct	_	_
@@ -11092,29 +11151,31 @@
 # text[orig] = oh my goodness abuela@s:spa . 355056_356954
 # gloss[orig] = oh.IM my.ADJ.POSS.1S goodness.N.SG grandmother.N.F.SG
 # speaker = PAO
+# labels = double-check
 1	oh	oh	INTJ	_	_	3	discourse	_	Lang=eng
-2	my	my	X	_	Foreign=Yes	3	flat:foreign	_	Lang=eng
-3	goodness	goodness	X	_	Foreign=Yes	0	root	_	Lang=eng
-4	abuela	abuela	PROPN	_	Number=Sing	2	vocative	_	Lang=spa
+2	my	my	PRON	_	Foreign=Yes	3	nmod:poss	_	Lang=eng
+3	goodness	goodness	NOUN	_	Foreign=Yes	0	root	_	Lang=eng
+4	abuela	abuela	PROPN	_	Number=Sing	3	vocative	_	Lang=spa
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = sastre8:204
-# text = est├ís en bad shape .
-# text[orig] = est├ís@s:spa en@s:spa bad shape . 371489_372534
+# text = estás en bad shape .
+# text[orig] = estás@s:spa en@s:spa bad shape . 371489_372534
 # gloss[orig] = be.V.2S.PRES in.PREP bad.ADJ shape.N.SG
 # speaker = AUD
-1	est├ís	est├ís	VERB	_	VerbForm=Inf	0	root	_	Lang=spa
+# labels = checked
+1	estás	estás	AUX	_	VerbForm=Inf	4	cop	_	Lang=spa
 2	en	en	ADP	_	_	4	case	_	AdpType=Prep|Lang=spa
 3	bad	bad	ADJ	_	_	4	amod	_	Lang=eng
-4	shape	shape	NOUN	_	_	1	obl	_	Lang=eng
-5	.	.	PUNCT	_	_	1	punct	_	_
+4	shape	shape	NOUN	_	_	0	root	_	Lang=eng
+5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = sastre8:207
-# text = qu├® cosas son los squats ?
-# text[orig] = +< qu├®@s:spa cosas@s:spa son@s:spa los@s:spa squats ? 376276_377460
+# text = qué cosas son los squats ?
+# text[orig] = +< qué@s:spa cosas@s:spa son@s:spa los@s:spa squats ? 376276_377460
 # gloss[orig] = what.INT thing.N.F.PL be.V.3P.PRES the.DET.DEF.M.PL unk
 # speaker = AUD
-1	qu├®	qu├®	X	_	_	2	det	_	Lang=spa
+1	qué	qué	X	_	_	2	det	_	Lang=spa
 2	cosas	cosa	NOUN	_	Gender=Fem|Number=Plur	0	root	_	Lang=spa
 3	son	ser	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	Lang=spa
 4	los	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	Lang=spa
@@ -11133,16 +11194,16 @@
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = sastre8:224
-# text = oye y las ni├▒as que est├ín en el team hay algunas que son very close friends of yours or no ?
-# text[orig] = oye@s:spa y@s:spa las@s:spa ni├▒as@s:spa que@s:spa est├ín@s:spa en@s:spa el@s:spa team hay@s:spa algunas@s:spa que@s:spa son@s:spa very close friends of yours or no@s:eng&spa ? 407452_412171
+# text = oye y las niñas que están en el team hay algunas que son very close friends of yours or no ?
+# text[orig] = oye@s:spa y@s:spa las@s:spa niñas@s:spa que@s:spa están@s:spa en@s:spa el@s:spa team hay@s:spa algunas@s:spa que@s:spa son@s:spa very close friends of yours or no@s:eng&spa ? 407452_412171
 # gloss[orig] = hear.V.2S.IMPER and.CONJ the.DET.DEF.F.PL kid.N.F.PL that.PRON.REL be.V.3P.PRES in.PREP the.DET.DEF.M.SG team.N.SG there_is.V.3S.PRES some.PRON.F.PL that.CONJ be.V.3P.PRES very.ADV close.SV.INFIN friend.N.PL of.PREP your.ADJ.POSS.2SP+PV.[or].yours.PRON.POSS.2SP or.CONJ no.ADV
 # speaker = AUD
 1	oye	oye	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Lang=spa
 2	y	y	CCONJ	_	_	10	cc	_	Lang=spa
 3	las	él	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	Lang=spa
-4	ni├▒as	ni├▒as	X	_	_	1	dep	_	Lang=spa
+4	niñas	niñas	X	_	_	1	dep	_	Lang=spa
 5	que	que	SCONJ	_	_	6	mark	_	Lang=spa
-6	est├ín	est├ín	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	Lang=spa
+6	están	están	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	Lang=spa
 7	en	en	ADP	_	_	9	case	_	Lang=spa
 8	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	Lang=spa
 9	team	team	X	_	Gender=Masc|Number=Sing	6	obl	_	Lang=eng
@@ -11186,15 +11247,15 @@
 11	?	?	PUNCT	_	_	6	punct	_	_
 
 # sent_id = sastre8:236
-# text = nadie en el team t├║ tienes clase ?
-# text[orig] = xxx nadie@s:spa en@s:spa el@s:spa team t├║@s:spa tienes@s:spa clase@s:spa ? 431806_434336
+# text = nadie en el team tú tienes clase ?
+# text[orig] = xxx nadie@s:spa en@s:spa el@s:spa team tú@s:spa tienes@s:spa clase@s:spa ? 431806_434336
 # gloss[orig] = no-one.PRON in.PREP the.DET.DEF.M.SG team.N.SG you.PRON.SUB.MF.2S have.V.2S.PRES class.N.F.SG
 # speaker = AUD
 1	nadie	nadie	PRON	_	Number=Sing|PronType=Neg	6	nsubj	_	Lang=spa
 2	en	en	ADP	_	_	4	case	_	Lang=spa
 3	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	Lang=spa
 4	team	team	X	_	Gender=Masc|Number=Sing	1	nmod	_	Lang=eng
-5	t├║	t├║	X	_	_	4	appos	_	Lang=spa
+5	tú	tú	X	_	_	4	appos	_	Lang=spa
 6	tienes	tener	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Lang=spa
 7	clase	clase	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	Lang=spa
 8	?	?	PUNCT	_	_	6	punct	_	_
@@ -11224,14 +11285,14 @@
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = sastre8:272
-# text = y t├║ c├│mo t├║ aprendes el spelling de las palabras ?
-# text[orig] = y@s:spa t├║@s:spa c├│mo@s:spa t├║@s:spa aprendes@s:spa el@s:spa spelling de@s:spa las@s:spa palabras@s:spa ? 491060_493179
+# text = y tú c├│mo tú aprendes el spelling de las palabras ?
+# text[orig] = y@s:spa tú@s:spa c├│mo@s:spa tú@s:spa aprendes@s:spa el@s:spa spelling de@s:spa las@s:spa palabras@s:spa ? 491060_493179
 # gloss[orig] = and.CONJ you.PRON.SUB.MF.2S how.INT you.PRON.SUB.MF.2S learn.V.2S.PRES the.DET.DEF.M.SG spell.N.SG.GER of.PREP the.DET.DEF.F.PL word.N.F.PL
 # speaker = AUD
 1	y	y	X	_	_	5	dep	_	Lang=spa
-2	t├║	t├║	X	_	_	1	dep	_	Lang=spa
+2	tú	tú	X	_	_	1	dep	_	Lang=spa
 3	c├│mo	c├│mo	X	_	_	1	dep	_	Lang=spa
-4	t├║	t├║	X	_	_	1	dep	_	Lang=spa
+4	tú	tú	X	_	_	1	dep	_	Lang=spa
 5	aprendes	aprendes	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Lang=spa
 6	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	Lang=spa
 7	spelling	spelling	X	_	Gender=Masc|Number=Sing	5	obj	_	Lang=eng
@@ -11322,11 +11383,11 @@
 8	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = sastre8:351
-# text = despu├®s con el um hash brown casserole two sunny side up eggs .
-# text[orig] = despu├®s@s:spa con@s:spa &e: el@s:spa um hash_brown casserole (.) two sunny side up eggs . 627362_633489
+# text = después con el um hash brown casserole two sunny side up eggs .
+# text[orig] = después@s:spa con@s:spa &e: el@s:spa um hash_brown casserole (.) two sunny side up eggs . 627362_633489
 # gloss[orig] = afterwards.ADV with.PREP the.DET.DEF.M.SG um.IM unk casserole.N.SG two.NUM sunny.ADJ side.N.SG up.ADV egg.N.PL
 # speaker = PAO
-1	despu├®s	despu├®s	PROPN	_	Number=Sing	0	root	_	Lang=spa
+1	después	después	PROPN	_	Number=Sing	0	root	_	Lang=spa
 2	con	con	ADP	_	_	6	case	_	Lang=spa
 3	el	el	PROPN	_	Number=Sing	6	compound	_	Lang=spa
 4	um	um	PROPN	_	Number=Sing	6	compound	_	Lang=eng
@@ -11355,12 +11416,12 @@
 9	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = sastre8:376
-# text = y tambi├®n fuimos al fuimos por a we were outside looking window shopping in Black and Wh(ite) White White .
-# text[orig] = y@s:spa tambi├®n@s:spa <fuimos@s:spa al@s:spa &em> [//] (.) <fuimos@s:spa por@s:spa a@s:spa &f> [///] we were outside looking window shopping in (.) Black_and_Wh(ite)@s:eng&spa [//] White@s:eng&spa [/] White@s:eng&spa . 678795_687699
+# text = y también fuimos al fuimos por a we were outside looking window shopping in Black and Wh(ite) White White .
+# text[orig] = y@s:spa también@s:spa <fuimos@s:spa al@s:spa &em> [//] (.) <fuimos@s:spa por@s:spa a@s:spa &f> [///] we were outside looking window shopping in (.) Black_and_Wh(ite)@s:eng&spa [//] White@s:eng&spa [/] White@s:eng&spa . 678795_687699
 # gloss[orig] = and.CONJ too.ADV be.V.1P.PAST to_the.PREP+DET.DEF.M.SG be.V.1P.PAST for.PREP to.PREP we.PRON.SUB.1P were.V.1P.PAST outside.PREP look.V.PRESPART window.N.SG shop.N.SG+ASV in.PREP name name name
 # speaker = PAO
 1	y	y	CCONJ	_	_	3	cc	_	Lang=spa
-2	tambi├®n	tambi├®n	X	_	_	3	nsubj	_	Lang=spa
+2	también	también	X	_	_	3	nsubj	_	Lang=spa
 3	fuimos	fuimos	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	Lang=spa
 4	al	al	X	_	_	5	mark	_	Lang=spa
 5	fuimos	fuimos	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	3	advcl	_	Lang=spa
@@ -11379,12 +11440,12 @@
 18	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = sastre8:398
-# text = yeah est├í muy modern y nuevo .
-# text[orig] = yeah est├í@s:spa muy@s:spa modern y@s:spa nuevo@s:spa . 710277_713533
+# text = yeah está muy modern y nuevo .
+# text[orig] = yeah está@s:spa muy@s:spa modern y@s:spa nuevo@s:spa . 710277_713533
 # gloss[orig] = yeah.ADV be.V.3S.PRES very.ADV modern.ADJ and.CONJ new.ADJ.M.SG
 # speaker = PAO
 1	yeah	yeah	INTJ	_	_	4	discourse	_	Lang=eng
-2	est├í	êt├íre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	Lang=spa
+2	está	êtáre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	Lang=spa
 3	muy	mucho	ADV	_	_	4	advmod	_	Lang=spa
 4	modern	modern	ADJ	_	Gender=Masc|Number=Sing	0	root	_	Lang=eng
 5	y	y	CCONJ	_	_	6	cc	_	Lang=spa
@@ -11448,13 +11509,13 @@
 14	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = sastre8:409
-# text = ah bueno s├¡ los neutrals son colores que pegan con cualquier cosa .
-# text[orig] = ah@s:eng&spa bueno@s:spa s├¡@s:spa los@s:spa neutrals son@s:spa colores@s:spa (.) que@s:spa (.) &=clears_throat pegan@s:spa con@s:spa cualquier@s:spa cosa@s:spa . 739319_744493
+# text = ah bueno sí los neutrals son colores que pegan con cualquier cosa .
+# text[orig] = ah@s:eng&spa bueno@s:spa sí@s:spa los@s:spa neutrals son@s:spa colores@s:spa (.) que@s:spa (.) &=clears_throat pegan@s:spa con@s:spa cualquier@s:spa cosa@s:spa . 739319_744493
 # gloss[orig] = ah.IM well.E yes.ADV the.DET.DEF.M.PL neutral.ADJ+PV be.V.3P.PRES colour.N.M.PL that.PRON.REL punch.V.3P.PRES with.PREP whatever.ADJ.MF.SG thing.N.F.SG
 # speaker = AUD
 1	ah	ah	INTJ	_	_	7	discourse	_	Lang=eng&spa
 2	bueno	bueno	ADJ	_	Gender=Masc|Number=Sing	7	discourse	_	Lang=spa
-3	s├¡	s├¡	X	_	_	7	dep	_	Lang=spa
+3	sí	sí	X	_	_	7	dep	_	Lang=spa
 4	los	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	Lang=spa
 5	neutrals	neutral	NOUN	_	Number=Plur	7	nsubj	_	Lang=eng
 6	son	ser	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	Lang=spa
@@ -11467,15 +11528,15 @@
 13	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = sastre8:422
-# text = c├│mo es skinny y qu├® es eso ?
-# text[orig] = +< c├│mo@s:spa es@s:spa skinny y@s:spa qu├®@s:spa es@s:spa eso@s:spa ? 765884_767312
+# text = c├│mo es skinny y qué es eso ?
+# text[orig] = +< c├│mo@s:spa es@s:spa skinny y@s:spa qué@s:spa es@s:spa eso@s:spa ? 765884_767312
 # gloss[orig] = how.INT be.V.3S.PRES skinny.ADJ and.CONJ what.INT be.V.3S.PRES that.PRON.DEM.NT.SG
 # speaker = AUD
 1	c├│mo	c├│mo	X	_	_	3	nsubj	_	Lang=spa
 2	es	ser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	Lang=spa
 3	skinny	skinny	PROPN	_	_	0	root	_	Lang=eng
 4	y	y	CCONJ	_	_	7	cc	_	Lang=spa
-5	qu├®	qu├®	X	_	_	7	nsubj	_	Lang=spa
+5	qué	qué	X	_	_	7	nsubj	_	Lang=spa
 6	es	ser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	Lang=spa
 7	eso	ese	PRON	_	Number=Sing|PronType=Dem	3	conj	_	Lang=spa
 8	?	?	PUNCT	_	_	3	punct	_	_
@@ -11551,8 +11612,8 @@
 8	?	?	PUNCT	_	_	6	punct	_	_
 
 # sent_id = sastre8:457
-# text = eh cerraron el Franquitu que est├í delante del cine .
-# text[orig] = eh cerraron@s:spa el@s:spa Franquitu@s:eng&spa que@s:spa est├í@s:spa delante@s:spa del@s:spa cine@s:spa . 828408_832048
+# text = eh cerraron el Franquitu que está delante del cine .
+# text[orig] = eh cerraron@s:spa el@s:spa Franquitu@s:eng&spa que@s:spa está@s:spa delante@s:spa del@s:spa cine@s:spa . 828408_832048
 # gloss[orig] = eh.IM shut.V.3P.PAST the.DET.DEF.M.SG name that.CONJ be.V.3S.PRES .ADV of_the.PREP+DET.DEF.M.SG cinema.N.M.SG
 # speaker = AUD
 1	eh	eh	INTJ	_	_	2	discourse	_	Lang=eng
@@ -11560,7 +11621,7 @@
 3	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	Lang=spa
 4	Franquitu	Franquitu	PROPN	_	_	2	obj	_	Lang=eng&spa
 5	que	que	PRON	_	PronType=Rel	6	nsubj	_	Lang=spa
-6	est├í	eir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	Lang=spa
+6	está	eir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	Lang=spa
 7	delante	delante	ADV	_	_	6	advmod	_	Lang=spa
 8	del	del	ADP	_	Gender=Masc|Number=Sing	9	case	_	AdpType=Preppron|Lang=spa
 9	cine	cine	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	Lang=spa
@@ -11581,8 +11642,8 @@
 8	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = sastre8:480
-# text = y compramos un hot dog t├║ un hot dog yo papitas t├║ agua y yo unas boniaticos esos sweet potato y un t├® and it was like thirteen fourteen dollars .
-# text[orig] = y@s:spa compramos@s:spa un@s:spa hot_dog t├║@s:spa un@s:spa hot_dog yo papitas@s:spa t├║@s:spa agua@s:spa y@s:spa yo@s:spa &h╔ÿ unas@s:spa &m (.) boniaticos@s:spa esos@s:spa (.) sweet potato (.) y@s:spa un@s:spa t├®@s:spa (.) and it was like thirteen fourteen dollars . 863675_874874
+# text = y compramos un hot dog tú un hot dog yo papitas tú agua y yo unas boniaticos esos sweet potato y un té and it was like thirteen fourteen dollars .
+# text[orig] = y@s:spa compramos@s:spa un@s:spa hot_dog tú@s:spa un@s:spa hot_dog yo papitas@s:spa tú@s:spa agua@s:spa y@s:spa yo@s:spa &h╔ÿ unas@s:spa &m (.) boniaticos@s:spa esos@s:spa (.) sweet potato (.) y@s:spa un@s:spa té@s:spa (.) and it was like thirteen fourteen dollars . 863675_874874
 # gloss[orig] = and.CONJ buy.V.1P.PAST.[or].buy.V.1P.PRES one.DET.INDEF.M.SG unk you.PRON.SUB.MF.2S one.DET.INDEF.M.SG unk unk chips.N.F.PL.DIM you.PRON.SUB.MF.2S water.N.F.SG and.CONJ I.PRON.SUB.MF.1S unite.V.2S.SUBJ.PRES sweet_potatoes.N.M.PL.DIM that.PRON.DEM.M.PL sweet.ADJ potato.N.SG and.CONJ one.DET.INDEF.M.SG tea.N.M.SG and.CONJ it.PRON.SUB.3S was.V.3S.PAST like.CONJ thirteen.NUM fourteen.NUM dollar.N.PL
 # speaker = AUD
 1	y	y	CCONJ	_	_	2	cc	_	Lang=spa
@@ -11594,7 +11655,7 @@
 7	hot	hot	X	_	Gender=Masc|Number=Sing	8	amod	_	Lang=eng
 8	dog	dog	X	_	Gender=Masc|Number=Sing	5	conj	_	Lang=eng
 9	papitas	papita	NOUN	_	Gender=Fem|Number=Plur	5	conj	_	Lang=spa
-10	t├║	t├║	X	_	_	9	dep	_	Lang=spa
+10	tú	tú	X	_	_	9	dep	_	Lang=spa
 11	agua	agua	NOUN	_	Gender=Fem|Number=Sing	9	appos	_	Lang=spa
 12	y	y	CCONJ	_	_	13	cc	_	Lang=spa
 13	yo	yo	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	conj	_	Lang=spa
@@ -11605,7 +11666,7 @@
 18	potato	potato	NOUN	_	Gender=Masc|Number=Sing	15	appos	_	Lang=eng
 19	y	y	CCONJ	_	_	21	cc	_	Lang=spa
 20	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	Lang=spa
-21	t├®	t├®	X	_	_	18	conj	_	Lang=spa
+21	té	té	X	_	_	18	conj	_	Lang=spa
 22	and	and	CCONJ	_	_	21	dep	_	Lang=eng
 23	it	it	PRON	_	_	22	compound	_	Lang=eng
 24	was	was	X	_	Number=Sing|Person=3	22	flat	_	Lang=eng
@@ -11616,12 +11677,12 @@
 29	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = sastre8:492
-# text = uh qu├® hambre tengo .
-# text[orig] = uh qu├®@s:spa hambre@s:spa tengo@s:spa . 900917_904138
+# text = uh qué hambre tengo .
+# text[orig] = uh qué@s:spa hambre@s:spa tengo@s:spa . 900917_904138
 # gloss[orig] = uh.IM what.INT hunger.N.M.SG have.V.1S.PRES
 # speaker = AUD
 1	uh	uh	X	_	_	4	discourse	_	Lang=eng
-2	qu├®	qu├®	X	_	_	3	det	_	Lang=spa
+2	qué	qué	X	_	_	3	det	_	Lang=spa
 3	hambre	hambre	NOUN	_	_	4	obj	_	Lang=spa
 4	tengo	tengo	X	_	_	0	root	_	Lang=spa
 5	.	.	PUNCT	_	_	4	punct	_	_
@@ -11662,35 +11723,35 @@
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = sastre8:518
-# text = ay s├¡ Joanna's nice .
-# text[orig] = ay@s:spa s├¡@s:spa Joanna's@s:eng&spa+eng nice . 955967_958445
+# text = ay sí Joanna's nice .
+# text[orig] = ay@s:spa sí@s:spa Joanna's@s:eng&spa+eng nice . 955967_958445
 # speaker = AUD
 1	ay	ay	INTJ	_	_	3	discourse	_	Lang=spa
-2	s├¡	s├¡	X	_	_	3	discourse	_	Lang=spa
+2	sí	sí	X	_	_	3	discourse	_	Lang=spa
 3	Joanna's	Joanna's	PROPN	_	_	0	root	_	Lang=eng&spa+eng
 4	nice	nice	X	_	_	3	amod	_	Lang=eng
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = sastre8:540
-# text = ay el t-shirt tambi├®n ?
-# text[orig] = +< ay el@s:spa t_shirt@s:eng&spa tambi├®n@s:spa ? 987066_988692
+# text = ay el t-shirt también ?
+# text[orig] = +< ay el@s:spa t_shirt@s:eng&spa también@s:spa ? 987066_988692
 # gloss[orig] = ay.V.INFIN the.DET.DEF.M.SG unk too.ADV
 # speaker = AUD
 1	ay	_	INTJ	_	_	4	discourse	_	Lang=eng
 2	el	_	PRON	_	_	3	det	_	Lang=spa
 3	t-shirt	_	NOUN	_	_	4	nsubj	_	Lang=eng&spa
-4	tambi├®n	_	X	_	_	0	root	_	Lang=spa
+4	también	_	X	_	_	0	root	_	Lang=spa
 5	?	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = sastre8:563
-# text = esta semana que est├í caminando es el spring break de ella ?
-# text[orig] = esta@s:spa semana@s:spa que@s:spa est├í@s:spa caminando@s:spa es@s:spa el@s:spa spring_break de@s:spa ella@s:spa ? 1026994_1029821
+# text = esta semana que está caminando es el spring break de ella ?
+# text[orig] = esta@s:spa semana@s:spa que@s:spa está@s:spa caminando@s:spa es@s:spa el@s:spa spring_break de@s:spa ella@s:spa ? 1026994_1029821
 # gloss[orig] = this.ADJ.DEM.F.SG week.N.F.SG that.PRON.REL be.V.3S.PRES walk.V.PRESPART be.V.3S.PRES the.DET.DEF.M.SG unk of.PREP she.PRON.SUB.F.3S
 # speaker = AUD
 1	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	Lang=spa
 2	semana	semana	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	Lang=spa
 3	que	que	SCONJ	_	_	5	mark	_	Lang=spa
-4	est├í	esar	AUX	_	VerbForm=Fin	5	aux	_	Lang=spa
+4	está	esar	AUX	_	VerbForm=Fin	5	aux	_	Lang=spa
 5	caminando	caminar	VERB	_	VerbForm=Ger	2	acl:relcl	_	Lang=spa
 6	es	ser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	Lang=spa
 7	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	Lang=spa
@@ -11700,18 +11761,18 @@
 11	?	?	PUNCT	_	_	8	punct	_	_
 
 # sent_id = sastre8:569
-# text = t├║ sabes que tu t├¡o este weekend est├í por una finca .
-# text[orig] = t├║@s:spa sabes@s:spa que@s:spa tu@s:spa t├¡o@s:spa (.) este@s:spa weekend (.) est├í@s:spa por@s:spa una@s:spa finca@s:spa . 1037265_1042061
+# text = tú sabes que tu tío este weekend está por una finca .
+# text[orig] = tú@s:spa sabes@s:spa que@s:spa tu@s:spa tío@s:spa (.) este@s:spa weekend (.) está@s:spa por@s:spa una@s:spa finca@s:spa . 1037265_1042061
 # gloss[orig] = you.PRON.SUB.MF.2S know.V.2S.PRES that.CONJ your.ADJ.POSS.MF.2S.SG uncle.N.M.SG this.PRON.DEM.M.SG weekend.N.SG be.V.3S.PRES for.PREP a.DET.INDEF.F.SG estate.N.F.SG
 # speaker = AUD
-1	t├║	t├║	X	_	_	2	nsubj	_	Lang=spa
+1	tú	tú	X	_	_	2	nsubj	_	Lang=spa
 2	sabes	saber	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Lang=spa
 3	que	que	SCONJ	_	_	5	mark	_	Lang=spa
 4	tu	tu	PRON	_	Number=Sing|Person=2|PronType=Prs	5	nsubj	_	Lang=spa
-5	t├¡o	t├¡o	X	_	_	2	ccomp	_	Lang=spa
+5	tío	tío	X	_	_	2	ccomp	_	Lang=spa
 6	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	Lang=spa
 7	weekend	weekend	NOUN	_	_	5	obl	_	Lang=eng
-8	est├í	est├í	X	_	_	11	cop	_	Lang=spa
+8	está	está	X	_	_	11	cop	_	Lang=spa
 9	por	por	ADP	_	_	11	case	_	AdpType=Prep|Lang=spa
 10	una	uno	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	Lang=spa
 11	finca	finca	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	Lang=spa
@@ -11804,13 +11865,13 @@
 12	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = sastre8:602
-# text = y t├║ t├¡o mand├│ ahora por correo un CD con todas las fotos de Ecuador .
-# text[orig] = y@s:spa t├║@s:spa t├¡o@s:spa mand├│@s:spa ahora@s:spa por@s:spa correo@s:spa (.) un@s:spa C_D (.) con@s:spa todas@s:spa las@s:spa fotos@s:spa de@s:spa Ecuador@s:spa . 1105094_1110890
+# text = y tú tío mand├│ ahora por correo un CD con todas las fotos de Ecuador .
+# text[orig] = y@s:spa tú@s:spa tío@s:spa mand├│@s:spa ahora@s:spa por@s:spa correo@s:spa (.) un@s:spa C_D (.) con@s:spa todas@s:spa las@s:spa fotos@s:spa de@s:spa Ecuador@s:spa . 1105094_1110890
 # gloss[orig] = and.CONJ you.PRON.SUB.MF.2S uncle.N.M.SG order.V.3S.PAST now.ADV for.PREP post.N.M.SG one.DET.INDEF.M.SG name with.PREP everything.PRON.F.PL the.DET.DEF.F.PL photo.N.F.PL of.PREP name
 # speaker = AUD
 1	y	y	X	_	_	4	cc	_	Lang=spa
-2	t├║	t├║	X	_	_	0	root	_	Lang=spa
-3	t├¡o	t├¡o	X	_	_	2	dep	_	Lang=spa
+2	tú	tú	X	_	_	0	root	_	Lang=spa
+3	tío	tío	X	_	_	2	dep	_	Lang=spa
 4	mand├│	mand├│	X	_	_	2	dep	_	Lang=spa
 5	ahora	ahora	ADV	_	_	7	advmod	_	Lang=spa
 6	por	por	ADP	_	_	7	case	_	AdpType=Prep|Lang=spa
@@ -11826,11 +11887,11 @@
 16	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = sastre8:618
-# text = s├¡ tenemos que ir a Gainsville cuando eso pasa a conocer el baby .
-# text[orig] = s├¡@s:spa tenemos@s:spa que@s:spa ir@s:spa a@s:spa Gainsville@s:eng&spa cuando@s:spa eso@s:spa pasa@s:spa a@s:spa conocer@s:spa el@s:spa baby . 1145565_1149320
+# text = sí tenemos que ir a Gainsville cuando eso pasa a conocer el baby .
+# text[orig] = sí@s:spa tenemos@s:spa que@s:spa ir@s:spa a@s:spa Gainsville@s:eng&spa cuando@s:spa eso@s:spa pasa@s:spa a@s:spa conocer@s:spa el@s:spa baby . 1145565_1149320
 # gloss[orig] = yes.ADV have.V.1P.PRES that.CONJ go.V.INFIN to.PREP name when.CONJ that.PRON.DEM.NT.SG pass.V.2S.IMPER.[or].pass.V.3S.PRES to.PREP meet.V.INFIN the.DET.DEF.M.SG baby.N.SG
 # speaker = AUD
-1	s├¡	s├¡	X	_	_	4	dep	_	Lang=spa
+1	sí	sí	X	_	_	4	dep	_	Lang=spa
 2	tenemos	tener	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	Lang=spa
 3	que	que	CCONJ	_	_	2	fixed	_	Lang=spa
 4	ir	ir	VERB	_	VerbForm=Inf	0	root	_	Lang=spa
@@ -11859,8 +11920,8 @@
 7	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = sastre8:627
-# text = cuando ellos finish la cocina vamos a ir all├í un weekend para ver todo lo que han hecho en la casa .
-# text[orig] = cuando@s:spa ellos@s:spa finish la@s:spa cocina@s:spa (.) vamos@s:spa a@s:spa ir@s:spa all├í@s:spa un@s:spa weekend (.) para@s:spa ver@s:spa todo@s:spa lo@s:spa que@s:spa han@s:spa hecho@s:spa en@s:spa la@s:spa casa@s:spa . 1159903_1165942
+# text = cuando ellos finish la cocina vamos a ir allá un weekend para ver todo lo que han hecho en la casa .
+# text[orig] = cuando@s:spa ellos@s:spa finish la@s:spa cocina@s:spa (.) vamos@s:spa a@s:spa ir@s:spa allá@s:spa un@s:spa weekend (.) para@s:spa ver@s:spa todo@s:spa lo@s:spa que@s:spa han@s:spa hecho@s:spa en@s:spa la@s:spa casa@s:spa . 1159903_1165942
 # gloss[orig] = when.CONJ they.PRON.SUB.M.3P finish.SV.INFIN the.DET.DEF.F.SG stove.N.F.SG go.V.1P.PRES to.PREP go.V.INFIN there.ADV one.DET.INDEF.M.SG weekend.N.SG for.PREP see.V.INFIN all.ADJ.M.SG the.DET.DEF.NT.SG that.PRON.REL have.V.3P.PRES do.V.PASTPART in.PREP the.DET.DEF.F.SG house.N.F.SG
 # speaker = AUD
 1	cuando	cuando	SCONJ	_	_	3	mark	_	Lang=spa
@@ -11871,7 +11932,7 @@
 6	vamos	ir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	Lang=spa
 7	a	a	ADP	_	_	8	mark	_	Lang=spa
 8	ir	ir	VERB	_	VerbForm=Inf	0	root	_	Lang=spa
-9	all├í	all├í	X	_	_	8	advmod	_	Lang=spa
+9	allá	allá	X	_	_	8	advmod	_	Lang=spa
 10	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	Lang=spa
 11	weekend	weekend	X	_	Gender=Masc|Number=Sing	8	obl	_	Lang=eng
 12	para	para	SCONJ	_	_	13	mark	_	Lang=spa
@@ -11922,13 +11983,13 @@
 4	know	know	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
 
 # sent_id = sastre8:668
-# text = el otro d├¡a yo estaba en el play ese que que t├║ me viste .
-# text[orig] = el@s:spa otro@s:spa d├¡a@s:spa yo@s:spa estaba@s:spa en@s:spa el@s:spa play ese@s:spa que@s:spa [/] que@s:spa t├║@s:spa me@s:spa viste@s:spa . 1241645_1244919
+# text = el otro día yo estaba en el play ese que que tú me viste .
+# text[orig] = el@s:spa otro@s:spa día@s:spa yo@s:spa estaba@s:spa en@s:spa el@s:spa play ese@s:spa que@s:spa [/] que@s:spa tú@s:spa me@s:spa viste@s:spa . 1241645_1244919
 # gloss[orig] = the.DET.DEF.M.SG other.ADJ.M.SG day.N.M.SG I.PRON.SUB.MF.1S be.V.13S.IMPERF in.PREP the.DET.DEF.M.SG play.N.SG that.PRON.DEM.M.SG that.PRON.REL that.CONJ you.PRON.SUB.MF.2S me.PRON.OBL.MF.1S see.V.2S.PAST
 # speaker = PAO
 1	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	Lang=spa
 2	otro	otro	DET	_	Gender=Masc|Number=Sing|PronType=Ind	3	det	_	Lang=spa
-3	d├¡a	d├¡a	X	_	_	5	nsubj	_	Lang=spa
+3	día	día	X	_	_	5	nsubj	_	Lang=spa
 4	yo	yo	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	Lang=spa
 5	estaba	estar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	Lang=spa
 6	en	en	ADP	_	_	8	case	_	Lang=spa
@@ -11937,7 +11998,7 @@
 9	ese	ese	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	Lang=spa
 10	que	que	SCONJ	_	_	14	mark	_	Lang=spa
 11	que	que	SCONJ	_	_	14	mark	_	Lang=spa
-12	t├║	t├║	X	_	_	14	nsubj	_	Lang=spa
+12	tú	tú	X	_	_	14	nsubj	_	Lang=spa
 13	me	yo	PRON	_	Case=Acc,Dat|Number=Sing|Person=1|PronType=Prs	14	obj	_	Lang=spa|PrepCase=Npr
 14	viste	vistir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	Lang=spa
 15	.	.	PUNCT	_	_	5	punct	_	_
@@ -11952,8 +12013,8 @@
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = sastre8:735
-# text = mira pobre Don Francisco Don Francisco nada m├ís que come pitta bread con pollo .
-# text[orig] = mira@s:spa pobre@s:spa Don@s:spa Francisco@s:spa Don@s:spa Francisco@s:spa nada@s:spa m├ís@s:spa que@s:spa come@s:spa (.) pitta bread con@s:spa pollo@s:spa . 1371817_1376790
+# text = mira pobre Don Francisco Don Francisco nada más que come pitta bread con pollo .
+# text[orig] = mira@s:spa pobre@s:spa Don@s:spa Francisco@s:spa Don@s:spa Francisco@s:spa nada@s:spa más@s:spa que@s:spa come@s:spa (.) pitta bread con@s:spa pollo@s:spa . 1371817_1376790
 # gloss[orig] = look.V.2S.IMPER poor.ADJ.M.SG name name name name nothing.PRON more.ADV that.CONJ eat.V.3S.PRES pitta.N.SG bread.N.SG with.PREP chicken.N.M.SG
 # speaker = AUD
 1	mira	mirar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Lang=spa
@@ -11963,7 +12024,7 @@
 5	Don	don	PROPN	_	_	3	appos	_	Lang=spa
 6	Francisco	Francisco	PROPN	_	_	3	flat	_	Lang=spa
 7	nada	nada	ADV	_	_	8	advmod	_	Lang=spa
-8	m├ís	m├ís	X	_	_	1	advmod	_	Lang=spa
+8	más	más	X	_	_	1	advmod	_	Lang=spa
 9	que	que	SCONJ	_	_	10	mark	_	Lang=spa
 10	come	comar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	Lang=spa
 11	pitta	pitta	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	Lang=eng
@@ -11973,13 +12034,13 @@
 15	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = sastre8:737
-# text = porque nada m├ís que come pitta bread pitta bread y pollo .
-# text[orig] = porque@s:spa nada@s:spa m├ís@s:spa que@s:spa come@s:spa pitta bread pitta bread y@s:spa pollo@s:spa . 1378483_1381942
+# text = porque nada más que come pitta bread pitta bread y pollo .
+# text[orig] = porque@s:spa nada@s:spa más@s:spa que@s:spa come@s:spa pitta bread pitta bread y@s:spa pollo@s:spa . 1378483_1381942
 # gloss[orig] = because.CONJ nothing.PRON more.ADV that.CONJ eat.V.3S.PRES pitta.N.SG bread.N.SG pitta.N.SG bread.N.SG and.CONJ chicken.N.M.SG
 # speaker = AUD
 1	porque	porque	SCONJ	_	_	5	mark	_	Lang=spa
 2	nada	nada	PRON	_	_	3	advmod	_	Lang=spa
-3	m├ís	m├ís	X	_	_	0	root	_	Lang=spa
+3	más	más	X	_	_	0	root	_	Lang=spa
 4	que	que	SCONJ	_	_	5	mark	_	Lang=spa
 5	come	comar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	Lang=spa
 6	pitta	pitta	X	_	_	5	obj	_	Lang=eng
@@ -12069,14 +12130,14 @@
 14	dormir	dormir	VERB	_	VerbForm=Inf	7	advcl	_	Lang=spa
 
 # sent_id = sastre8:787
-# text = porque probablemente el s├íbado si vas a party con nosotros vamos a venir tarde .
-# text[orig] = porque@s:spa probablemente@s:spa (.) el@s:spa s├íbado@s:spa si@s:spa vas@s:spa a@s:spa party con@s:spa nosotros@s:spa vamos@s:spa a@s:spa venir@s:spa tarde@s:spa . 1467965_1473682
+# text = porque probablemente el sábado si vas a party con nosotros vamos a venir tarde .
+# text[orig] = porque@s:spa probablemente@s:spa (.) el@s:spa sábado@s:spa si@s:spa vas@s:spa a@s:spa party con@s:spa nosotros@s:spa vamos@s:spa a@s:spa venir@s:spa tarde@s:spa . 1467965_1473682
 # gloss[orig] = because.CONJ probably.ADV the.DET.DEF.M.SG Saturday.N.M.SG if.CONJ go.V.2S.PRES to.PREP party.N.SG with.PREP we.PRON.SUB.M.1P go.V.1P.PRES to.PREP come.V.INFIN late.ADV.[or].afternoon.N.F.SG
 # speaker = AUD
 1	porque	porque	SCONJ	_	_	13	mark	_	Lang=spa
 2	probablemente	probablemente	ADV	_	_	13	advmod	_	Lang=spa
 3	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	Lang=spa
-4	s├íbado	s├íbado	NOUN	_	_	13	obl	_	Lang=spa
+4	sábado	sábado	NOUN	_	_	13	obl	_	Lang=spa
 5	si	si	SCONJ	_	_	6	mark	_	Lang=spa
 6	vas	ir	VERB	_	Gender=Fem|Number=Plur|VerbForm=Fin	13	advcl	_	Lang=spa
 7	a	a	ADP	_	_	8	case	_	Lang=spa
@@ -12252,17 +12313,17 @@
 18	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = sastre8:862
-# text = un d├¡a los est├íbamos buscando no s├® si a ti y a David o we were looking for Rick and Diana .
-# text[orig] = un@s:spa d├¡a@s:spa los@s:spa est├íbamos@s:spa buscando@s:spa no@s:spa s├®@s:spa si@s:spa a@s:spa ti@s:spa y@s:spa a@s:spa David@s:eng&spa (.) o@s:spa we were looking for Rick@s:eng&spa and Diana@s:eng&spa . 1631733_1638082
+# text = un día los estábamos buscando no sé si a ti y a David o we were looking for Rick and Diana .
+# text[orig] = un@s:spa día@s:spa los@s:spa estábamos@s:spa buscando@s:spa no@s:spa sé@s:spa si@s:spa a@s:spa ti@s:spa y@s:spa a@s:spa David@s:eng&spa (.) o@s:spa we were looking for Rick@s:eng&spa and Diana@s:eng&spa . 1631733_1638082
 # gloss[orig] = one.DET.INDEF.M.SG day.N.M.SG them.PRON.OBJ.M.3P be.V.1P.IMPERF seek.V.PRESPART not.ADV know.V.1S.PRES if.CONJ to.PREP you.PRON.PREP.MF.2S and.CONJ to.PREP name or.CONJ we.PRON.SUB.1P were.V.1P.PAST look.V.PRESPART for.PREP name and.CONJ name
 # speaker = AUD
 1	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Lang=spa
-2	d├¡a	d├¡a	X	_	_	5	dep	_	Lang=spa
+2	día	día	X	_	_	5	dep	_	Lang=spa
 3	los	él	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	obj	_	Lang=spa|PrepCase=Npr
-4	est├íbamos	est├ar	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	5	aux	_	Lang=spa
+4	estábamos	est├ar	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	5	aux	_	Lang=spa
 5	buscando	buscar	VERB	_	VerbForm=Ger	0	root	_	Lang=spa
 6	no	no	X	_	_	7	advmod	_	Lang=spa
-7	s├®	s├®	X	_	_	5	dep	_	Lang=spa
+7	sé	sé	X	_	_	5	dep	_	Lang=spa
 8	si	si	SCONJ	_	_	10	mark	_	Lang=spa
 9	a	a	ADP	_	_	10	case	_	Lang=spa
 10	ti	tú	PRON	_	Case=Acc,Dat|Number=Sing|Person=2|PronType=Prs	5	obl	_	Lang=spa|PrepCase=Npr
@@ -12280,12 +12341,12 @@
 22	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = sastre8:879
-# text = so despu├®s que vayamos a Paris el el barco para en un puerto que se llama la Habre en el sur de Francia .
-# text[orig] = so (.) despu├®s@s:spa que@s:spa vayamos@s:spa a@s:spa Paris@s:eng&spa (.) el@s:spa [/] el@s:spa barco@s:spa para@s:spa en@s:spa un@s:spa puerto@s:spa que@s:spa se@s:spa llama@s:spa la@s:spa Habre@s:eng&spa (.) en@s:spa el@s:spa sur@s:spa de@s:spa Francia@s:spa . 1666543_1675384
+# text = so después que vayamos a Paris el el barco para en un puerto que se llama la Habre en el sur de Francia .
+# text[orig] = so (.) después@s:spa que@s:spa vayamos@s:spa a@s:spa Paris@s:eng&spa (.) el@s:spa [/] el@s:spa barco@s:spa para@s:spa en@s:spa un@s:spa puerto@s:spa que@s:spa se@s:spa llama@s:spa la@s:spa Habre@s:eng&spa (.) en@s:spa el@s:spa sur@s:spa de@s:spa Francia@s:spa . 1666543_1675384
 # gloss[orig] = so.ADV afterwards.ADV that.CONJ go.V.1P.SUBJ.PRES to.PREP name the.DET.DEF.M.SG the.DET.DEF.M.SG vessel.N.M.SG for.PREP in.PREP one.DET.INDEF.M.SG port.N.M.SG that.PRON.REL self.PRON.REFL.MF.3SP call.V.3S.PRES the.DET.DEF.F.SG name in.PREP the.DET.DEF.M.SG south.N.M.SG of.PREP name
 # speaker = AUD
 1	so	so	X	_	_	0	root	_	Lang=eng
-2	despu├®s	despu├®s	X	_	_	1	dep	_	Lang=spa
+2	después	después	X	_	_	1	dep	_	Lang=spa
 3	que	que	SCONJ	_	_	4	mark	_	Lang=spa
 4	vayamos	ir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	1	ccomp	_	Lang=spa
 5	a	a	ADP	_	_	6	case	_	Lang=spa
@@ -12323,10 +12384,10 @@
 
 # sent_id = sastre8:916
 # text = fíjate Celebrity tiene five star kitchen .
-# text[orig] = f├¡jate@s:spa Celebrity@s:eng&spa tiene@s:spa (.) five star kitchen . 1740532_1744186
+# text[orig] = fíjate@s:spa Celebrity@s:eng&spa tiene@s:spa (.) five star kitchen . 1740532_1744186
 # gloss[orig] = fix.V.2S.IMPER.PRECLITIC+TE[PRON.MF.2S] name have.V.3S.PRES five.NUM star.N.SG kitchen.N.SG
 # speaker = AUD
-1	f├¡jate	f├¡jate	X	_	_	3	advmod	_	Lang=spa
+1	fíjate	fíjate	X	_	_	3	advmod	_	Lang=spa
 2	Celebrity	celebrity	PROPN	_	_	3	nsubj	_	Lang=eng&spa
 3	tiene	tener	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Lang=spa
 4	five	five	NUM	_	Foreign=Yes	6	compound	_	Lang=eng
@@ -12396,22 +12457,22 @@
 6	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = sastre8:970
-# text = y in what month t├║ t├║ crees que um se pone fr├¡o over there .
-# text[orig] = y@s:spa (.) &k &ew in what month t├║@s:spa [/] t├║@s:spa crees@s:spa que@s:spa um (.) se@s:spa pone@s:spa fr├¡o@s:spa (.) over there . 1861962_1868181
+# text = y in what month tú tú crees que um se pone frío over there .
+# text[orig] = y@s:spa (.) &k &ew in what month tú@s:spa [/] tú@s:spa crees@s:spa que@s:spa um (.) se@s:spa pone@s:spa frío@s:spa (.) over there . 1861962_1868181
 # gloss[orig] = and.CONJ in.PREP what.REL month.N.SG you.PRON.SUB.MF.2S you.PRON.SUB.MF.2S believe.V.2S.PRES that.CONJ um.IM self.PRON.REFL.MF.3SP put.V.3S.PRES chill.ADJ.M.SG over.ADV there.ADV
 # speaker = PAO
 1	y	y	X	_	_	7	discourse	_	Lang=spa
 2	in	in	ADP	_	_	4	case	_	Lang=eng
 3	what	what	DET	_	PronType=Int	4	det	_	Lang=eng
 4	month	month	NOUN	_	Number=Sing	7	obl	_	Lang=eng
-5	t├║	t├║	X	_	Number=Sing	6	compound	_	Lang=spa
-6	t├║	t├║	X	_	Number=Sing	7	nsubj	_	Lang=spa
+5	tú	tú	X	_	Number=Sing	6	compound	_	Lang=spa
+6	tú	tú	X	_	Number=Sing	7	nsubj	_	Lang=spa
 7	crees	cree	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Lang=spa
 8	que	que	SCONJ	_	_	11	mark	_	Lang=spa
 9	um	um	PRON	_	Number=Sing	11	nsubj	_	Lang=eng
 10	se	se	PRON	_	_	11	obj	_	Lang=spa
 11	pone	pone	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	Lang=spa
-12	fr├¡o	fr├¡o	X	_	Number=Sing	11	obj	_	Lang=spa
+12	frío	frío	X	_	Number=Sing	11	obj	_	Lang=spa
 13	over	over	X	_	_	14	case	_	Lang=eng
 14	there	there	ADV	_	PronType=Dem	11	advmod	_	Lang=eng
 15	.	.	PUNCT	_	_	7	punct	_	_
@@ -12436,13 +12497,13 @@
 13	?	?	PUNCT	_	_	11	punct	_	_
 
 # sent_id = sastre8:987
-# text = oh y despu├®s in in fourth of July I'll be back in Disney again .
-# text[orig] = oh@s:eng&spa (.) y@s:spa despu├®s@s:spa in [/] in fourth of July I'll be back in Disney@s:eng&spa again . 1904439_1909143
+# text = oh y después in in fourth of July I'll be back in Disney again .
+# text[orig] = oh@s:eng&spa (.) y@s:spa después@s:spa in [/] in fourth of July I'll be back in Disney@s:eng&spa again . 1904439_1909143
 # gloss[orig] = oh.IM and.CONJ afterwards.ADV in.PREP in.PREP fourth.ORD of.PREP name I.PRON.SUB.1S+BE.V.FUT be.V.INFIN back.ADV in.PREP name again.ADV
 # speaker = PAO
 1	oh	oh	INTJ	_	_	3	discourse	_	Lang=eng&spa
 2	y	y	PROPN	_	_	3	compound	_	Lang=spa
-3	despu├®s	despu├®s	PROPN	_	Number=Sing	11	nsubj	_	Lang=spa
+3	después	después	PROPN	_	Number=Sing	11	nsubj	_	Lang=spa
 4	in	in	ADP	_	_	6	case	_	Lang=eng
 5	in	in	ADP	_	_	6	case	_	Lang=eng
 6	fourth	fourth	ADJ	_	Number=Sing	11	obl	_	Lang=eng

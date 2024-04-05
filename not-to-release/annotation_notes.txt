@@ -18,4 +18,19 @@
 - "like" as a `verb` of reported speech, e.g. "he is like don't say anything" (similar to "he is all")
 	- apparently (found e.g. in EWT), "be like X" is a compound verb and X is ccomp
 - what about when an adj is doubled for emphasis (see "ese documental estaba duro duro")
-- finish through sastre10 for "first pass" (approx 1100 sentences)
+- compound vs. nmod....??? all over the place 
+
+
+
+
+
+
+
+
+
+
+
+
+
+finish through sastre10 for "first pass" (approx 1100 sentences)
+- 
