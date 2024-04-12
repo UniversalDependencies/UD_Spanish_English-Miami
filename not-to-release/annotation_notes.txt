@@ -18,10 +18,14 @@
 - "like" as a `verb` of reported speech, e.g. "he is like don't say anything" (similar to "he is all")
 	- apparently (found e.g. in EWT), "be like X" is a compound verb and X is ccomp
 - what about when an adj is doubled for emphasis (see "ese documental estaba duro duro")
-- compound vs. nmod....??? all over the place 
-
-
-
+- compound vs. nmod....??? all over the place
+- "the food there was great"....is "there" modifying "food" or the head? (Currently I have advmod(food, there))
+- Sometimes a speaker says a word or phrase that is not syntactically integrated with the sentence, apparently to set a topic ("the classroom are there any girls in the class that..."). I have this as dislocated 
+- check "que" SCONJ/mark vs. PRON/nsubj(or obj)
+- more questions about how to reparandum (e.g. "donde lo where did you buy it?")
+- "hot dog" amod(dog, hot) or compound(hot, dog)??
+- make sure to go back through all instances of "ir + a + VERB", "tener que VERB", "hay que VERB", "gonna VERB", "have to VERB", etc.
+- don't forget to note all the differences in annotation decisions between eng and spa....these in theory need to be harmonized for this treebank right? or is it better to be consistent within each language (one example I can think of is possessive determiners which are DET/det in spanish (AnCora) and PRON/nmod:poss in english (EWT))
 
 
 
