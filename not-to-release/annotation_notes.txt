@@ -26,7 +26,9 @@
 - "hot dog" amod(dog, hot) or compound(hot, dog)??
 - make sure to go back through all instances of "ir + a + VERB", "tener que VERB", "hay que VERB", "gonna VERB", "have to VERB", etc.
 - don't forget to note all the differences in annotation decisions between eng and spa....these in theory need to be harmonized for this treebank right? or is it better to be consistent within each language (one example I can think of is possessive determiners which are DET/det in spanish (AnCora) and PRON/nmod:poss in english (EWT))
-
+- "zip" in "zip code"....PROPN? or NOUN? go back and update once decided
+- number names like "ten forty" should they be PROPN or NUM?
+- sentence-initial "sí": root or discourse?
 
 
 
